@@ -4,11 +4,19 @@
 }
 
 h2, h3, h4, h5, h6{
+	margin-top: 40px;
     text-align:center;
 }
 
 .documents{
 	width:40%
+}
+
+.betreuungcontent{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 25px;
+	width: 80%;
 }
 
 /*Small devices (landscape phones, 576px and up)*/
