@@ -122,9 +122,9 @@ include('./header.php');
 	Telefon: <a href="tel:07321/381214">07321 – 381214</a> (alle Buchstaben)<br/>
 	Fax allgemein: 07321 – 381234<br/><br/>
 	E-Mail allgemein: <a href="mailto:poststelle@AGHeidenheim.justiz.bwl.de">poststelle@AGHeidenheim.justiz.bwl.de</a><br/>
-	Webseite: <a href="http://www.amtsgericht-heidenheim.de/pb/,Lde/Startseite/Amtsgericht/Abteilungen+_+Serviceeinheiten">http://www.amtsgericht-heidenheim.de/pb/,Lde/Startseite/Amtsgericht/Abteilungen+_+Serviceeinheiten</a></p>
+	Webseite: <a href="http://www.amtsgericht-heidenheim.de/pb/,Lde/Startseite/Amtsgericht/Abteilungen+_+Serviceeinheiten" target="_blank">http://www.amtsgericht-heidenheim.de/pb/,Lde/Startseite/Amtsgericht/Abteilungen+_+Serviceeinheiten</a></p>
 	<h2>Formulare</h2>
-	<a href="localhost">Ich bin ein Beispieldownload-Link<br/></a>
+	<a href="src/doc/anregungbtr.pdf" download="Anregung_Betreuung.pdf">Anregung_Betreuung.pdf<br/></a>
 	<a href="localhost">Ich bin ein zweiter Beispieldownload-Link</a>
 </main>
 
