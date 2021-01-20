@@ -10,7 +10,7 @@ include('./header.php');
       <br/>
       Geschäftsführer : Stefan Kauffmann
       <br/><br/>
-      Verantwortlich für den Inhalt nach &para; 55 Abs. 2 RStV: Stefan Kauffmann
+      Verantwortlich für den Inhalt nach &#0167; 55 Abs. 2 RStV: Stefan Kauffmann
       <br/><br/>
       Postanschrift: Felsenstr. 36, 89518 Heidenheim
       <br/>
