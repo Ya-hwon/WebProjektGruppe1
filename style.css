@@ -6,14 +6,156 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Hammersmith One', sans-serif;
 }
 
+h1 {
+    color: #05286C;
+    font-size: 20px;
+}
+
+h2 {
+    color: #2B4987;
+    font-size: 30px;
+}
+
+h3 {
+    color: #2B4987;
+    font-size: 25px;
+}
+
+h4 {
+    color: #2B4987;
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #FF6A07;
+    border-color: #FF6A07;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    border-color: #FF6A07;
+    color: #FF6A07;
+    font-weight: bold;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: white;
+    border-color: #FF6A07;
+    color: #FF6A07;
+    font-weight: bold;
+}
+
+.btn-primary:focus {
+    background-color: white;
+    border-color: #FF6A07;
+    color: #FF6A07;
+    font-weight: bold;
+    box-shadow: 0 0 0 0.2rem rgb(255, 106, 7, 0.5);
+}
+
+
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) { 
+
+    h1 {
+    font-size: 22px;
+    }
+    
+    h2 {
+    font-size: 30px;
+    }
+    
+    h3 {
+    font-size: 25px;
+    }
+    
+    h4 {
+    font-size: 20px;
+    }
+    
+    p {
+    font-size: 16px;
+    }
+    
+}
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+    
+    h1 {
+    font-size: 30px;
+    }
+    
+    h2 {
+    font-size: 32px;
+    }
+    
+    h3 {
+    font-size: 27px;
+    }
+    
+    h4 {
+    font-size: 22px;
+    }
+    
+    p {
+    font-size: 18px;
+    }
+    
+}
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {
+    
+    h1 {
+    font-size: 30px;
+    }
+    
+    h2 {
+    font-size: 35px;
+    }
+    
+    h3 {
+    font-size: 30px;
+    }
+    
+    h4 {
+    font-size: 25px;
+    }
+       
+    p {
+    font-size: 18px;
+    }
+    
+}
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+    
+    h1 {
+    font-size: 30px;
+    }
+    
+    h2 {
+    font-size: 35px;
+    }
+    
+    h3 {
+    font-size: 30px;
+    }
+    
+    h4 {
+    font-size: 25px;
+    }
+    
+    p {
+    font-size: 18px;
+    }
+    
+}
