@@ -2,6 +2,8 @@
 include('./header.php');
 ?>
 
+<link rel="stylesheet" href="/src/css/kontakt.css">
+
 <?php
 if(!empty($_POST["send"])) {
 	$name = $_POST["fname"];
@@ -22,26 +24,32 @@ if(!empty($_POST["send"])) {
 ?>
 
 <main>
-    <h2>Kontakt</h2>
+<div id="maindiv">
+    <h2>Kontakt</h2><br/>
     <form action="" enctype="multipart/form-data" method="post">
 
-      <div><label for="fname">Name*:</label></div>
-      <div><input id="fname" name="fname" type="text" required></input></div>
-
-      <div><label for="femail">Email*:</label></div>
-      <div><input id="femail" name="femail" type="email" required></input></div>
-
-      <div><label for="ftel">Telefonnummer:</label></div>
-      <div><input id="ftel" name="ftel" pattern="^([+](\d{1,3})\s?)?((\(\d{3,5}\)|\d{3,5})(\s)?)\d{3,8}$" type="tel"></input></div>
-
-      <div><label for="fmsg">Nachricht*:</label></div>
-      <div><textarea id="fmsg" name="fmsg" rows="8" cols= 30 autocomplete="on" required></textarea></div>
+      <div class="mb-3">
+        <div><label class="form-label" for="fname">Name*:</label></div>
+        <div><input class="form-control" id="fname" name="fname" type="text" required></input></div>
+      </div>
+      <div class="mb-3">
+        <div><label class="form-label" for="femail">Email*:</label></div>
+        <div><input class="form-control" id="femail" name="femail" type="email" required></input></div>
+      </div>
+      <div class="mb-3">
+        <div><label class="form-label" for="ftel">Telefonnummer:</label></div>
+        <div><input class="form-control" id="ftel" name="ftel" pattern="^([+](\d{1,3})\s?)?((\(\d{3,5}\)|\d{3,5})(\s)?)\d{3,8}$" type="tel"></input></div>
+      </div>
+      <div class="mb-3">
+        <div><label class="form-label" for="fmsg">Nachricht*:</label></div>
+        <div><textarea class="form-control" id="fmsg" name="fmsg" autocomplete="on" required></textarea></div>
+      </div>
 
       <!--div class="g-recaptcha" data-sitekey="WEBSITEKEYHERE" data-theme="light" data-size="normal" data-image="image"></div>
       <script src="https://www.google.com/recaptcha/api.js" async defer></script-->
       <!-- needs to be setup, doesnt make sense for testing, alternate sources for captchas are possible ofc -->
 
-      <div><input type="submit" name="send" value="send" /></div>
+      <div><input type="submit" class="btn btn-primary" name="send" value="send" /></div>
 
       <div id="statusMessage">
         <?php if (! empty($message)) { ?>
@@ -49,6 +57,7 @@ if(!empty($_POST["send"])) {
         <?php } ?>
       </div>
     </form>
+</div>
 </main>
 
 

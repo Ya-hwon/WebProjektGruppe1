@@ -2,10 +2,12 @@
 include('./header.php');
 ?>
 
+<link rel="stylesheet" href="/src/css/impressum.css">
+
 <main>
     <h2>Impressum</h2>
-    <h3>Betreuungsverein Heidenheim e.V.</h3>
-    <p>
+    <h3>Betreuungsverein Heidenheim e.V.</h3><br/>
+    <p id="impressumcontent">
       1. Vorsitzende : Sabine Dernai
       <br/>
       Geschäftsführer : Stefan Kauffmann

@@ -1,0 +1,20 @@
+#maindiv {
+  /*background: rgb(5,40,108);
+  background: linear-gradient(90deg, rgba(5,40,108,1) 0%, rgba(43,73,135,1) 100%);*/
+  border-radius: 10px;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+#fmsg {
+   width: 75%;
+   height: 20%;
+   display: inline;
+   text-align: left;
+}
+.form-control{
+  text-align: center;
+  border-radius: 30px;
+  /* background-color: rgba(255, 255, 255, 0); */
+}
