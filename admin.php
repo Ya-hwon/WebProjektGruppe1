@@ -5,31 +5,36 @@ if(!isset($_SESSION['login'])) {
 }
 
 if(!empty($_POST["saveData"])) {
-  echo "<html></html>";
 	$data = json_decode($_POST["saveData"]);
   $list=-1;
   $lists=array();
+  $entry=0;
   foreach($data as $elem){
     if($elem=="#"){
       $list++;
-      if($list>2)break;
-      $lists[$list]=array();
+      $entry=0;
+      $lists[$list][0]=array();
+      continue;
     }
-    if(is_numeric($elem))continue;
-    $lists[$list][]=$elem;
+    if(is_numeric($elem)){
+      $entry++;
+      $lists[$list][]=array();
+      continue;
+    }
+    $lists[$list][$entry][]=$elem;
   }
 
-  $file = fopen("termine.csv", "w");
+  $file = fopen("src/csv/termine.csv", "w");
   foreach($lists[0] as $sublist){
     fputcsv($file,$sublist);
   }
   fclose($file);
-  $file = fopen("aktuelles.csv", "w");
+  $file = fopen("src/csv/aktuelles.csv", "w");
   foreach($lists[1] as $sublist){
     fputcsv($file,$sublist);
   }
   fclose($file);
-  $file = fopen("mitarbeiter.csv", "w");
+  $file = fopen("src/csv/mitarbeiter.csv", "w");
   foreach($lists[2] as $sublist){
     fputcsv($file,$sublist);
   }
