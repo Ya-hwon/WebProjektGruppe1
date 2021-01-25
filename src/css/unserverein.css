@@ -23,10 +23,20 @@ h2 {
 
 #photo-vorstand {
     display: block;
-    width: 90%;
+    width: 95%;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.vorstand-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+table {
+    max-width: 600px;
 }
 
 
