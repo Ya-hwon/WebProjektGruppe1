@@ -6,8 +6,22 @@ include('./header.php');
 
 
 <main>
-    <h2>Allgemeine Informationen</h2>
-    <p class="betreuungcontent">Ich bin die Allgemeine Information zur Betreuung: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu</p>
+    <h2>Ehrenamtliche Betreuung – auch für Sie ein Gewinn!</h2>
+    <p class="betreuungcontent">Möchten Sie einen Teil Ihrer Freizeit sinnvoll gestalten und eine ehrenamtliche Aufgabe im sozialen Bereich übernehmen? 
+	Sie helfen damit nicht nur anderen, sondern werden selbst neue Erkenntnisse gewinnen, vielfältige Erfahrungen machen und Ihren Horizont erweitern. 
+	Ein paar Stunden im Monat reichen oft aus, um einem altersgebrechlichen oder behinderten Menschen in der Regelung seiner Angelegenheiten zur Seite zu stehen.<br/><br/>
+	Als ehrenamtlicher Betreuer erhalten Sie umfassende Beratung, Einführung und Schulung. Außerdem sind Sie haftpflicht- und unfallversichert und bekommen Ihre Aufwendungen ersetzt.<br/><br/>
+	Fordern Sie unverbindlich Informationen an oder vereinbaren Sie einfach einen Termin mit uns. Trauen Sie sich, Ihre Fähigkeiten für einen guten Zweck einzusetzen!<br/><br/>
+	<b><a href="src/doc/Flyer2-Ehrenamt_gross.pdf" download="Flyer_Betreuung.pdf">Flyer<br/><br/></a>
+	Ihr Ansprechpartner: Stefan Kauffmann (Geschäftsführer)<br/><br/>
+	Tel. <a href="tel:+497321/943060">07321 943060</a><br/>
+	Mail <a href="mailto:info@btv-hdh.de">info@btv-hdh.de</a><br/>
+	Fax 0261 2016182744<br/><br/>
+	
+	Kontaktformular</b>
+	</p>
+	
+	
 	
 	<h2>Inhaltsverzeichnis</h2>
 	<ul class="list-unstyled center directory">
@@ -142,13 +156,13 @@ include('./header.php');
 	<p class="betreuungcontent"><b>Zuständig für alle im Landkreis Heidenheim anhängigen Betreuungsverfahren ist das Amtsgericht Heidenheim, Olgastr, 22, 89518 Heidenheim.</b><br/><br/>
 	Sie erreichen die jeweiligen Stellen unter folgenden Durchwahlen:<br/><br/>
 	<u>Serviceeinheit in Betreuungssachen:</u><br/><br/>
-	Telefon: <a href="tel:07321/381720">07321 – 381720</a>  - zuständig für Buchstaben:<br/>
+	Telefon: <a href="tel:+497321/381720">07321 – 381720</a>  - zuständig für Buchstaben:<br/>
 	D, G, H, I, J, L, Q, R, S, T, W, Za – Zm (Name der betroffenen Person)<br/><br/>
-	Telefon: <a href="tel:07321/381721">07321 – 381721</a> -  zuständig für Buchstaben:<br/>
+	Telefon: <a href="tel:+497321/381721">07321 – 381721</a> -  zuständig für Buchstaben:<br/>
 	A, B, C, E, F, K, M, N, O, P, U, V, X, Y, Zn – Zz <br/><br/>
 	Fax: 07321 – 381700 (alle Buchstaben)<br/><br/>
 	<u>Serviceeinheit Unterbringungssachen und freiheitsentziehende Maßnahmen:</u><br/><br/>
-	Telefon: <a href="tel:07321/381214">07321 – 381214</a> (alle Buchstaben)<br/>
+	Telefon: <a href="tel:+497321/381214">07321 – 381214</a> (alle Buchstaben)<br/>
 	Fax allgemein: 07321 – 381234<br/><br/>
 	E-Mail allgemein: <a href="mailto:poststelle@AGHeidenheim.justiz.bwl.de">poststelle@AGHeidenheim.justiz.bwl.de</a><br/>
 	<a href="http://www.amtsgericht-heidenheim.de/pb/,Lde/Startseite/Amtsgericht/Abteilungen+_+Serviceeinheiten" target="_blank">Verzeichnis</a> der Abteilungen und Serviceeinheiten des Amtsgerichts Heidenheim</p>
