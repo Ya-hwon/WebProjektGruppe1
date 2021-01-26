@@ -2,7 +2,7 @@
 session_start();
 echo isset($_SESSION['login']);
 if(isset($_SESSION['login'])) {
-  header('LOCATION:admin.php'); die();
+  header('LOCATION:admin'); die();
 }
 include('./header.php');
 ?>
@@ -15,7 +15,7 @@ include('./header.php');
       $username = $_POST['username'];
       $password = $_POST['password'];
       if(password_verify($password, '$2y$10$AWfj64e4rVhmORIlWCtMSuLELGdCYrnZaOMAxwVORrVggHyh8.U3K')){
-        $_SESSION['login'] = true; header('LOCATION:admin.php'); die();
+        $_SESSION['login'] = true; header('LOCATION:admin'); die();
       } {
         echo "<div class='alert alert-danger'>Error</div>";
       }
