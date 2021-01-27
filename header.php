@@ -49,10 +49,10 @@
                         Unser Verein
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="./UnserVerein#Mitarbeiter">Mitarbeiter</a>
-                        <a class="dropdown-item" href="./UnserVerein#Vorstand">Vorstand</a>
-                        <a class="dropdown-item" href="./UnserVerein#Mitglied">Mitglied werden</a>
-                        <a class="dropdown-item" href="./UnserVerein#Mitarbeit">Mitarbeit</a>
+                        <a class="dropdown-item" href="./unserVerein#Mitarbeiter">Mitarbeiter</a>
+                        <a class="dropdown-item" href="./unserVerein#Vorstand">Vorstand</a>
+                        <a class="dropdown-item" href="./unserVerein#Mitglied">Mitglied werden</a>
+                        <a class="dropdown-item" href="./unserVerein#Mitarbeit">Mitarbeit</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -60,9 +60,9 @@
                         Betreuung
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="./Betreuung#Informationen">Informationen</a>
-                        <a class="dropdown-item" href="./Betreuung#Betreuungsgerichte">Betreuungsgerichte</a>
-                        <a class="dropdown-item" href="./Betreuung#Formulare">Formulare</a>
+                        <a class="dropdown-item" href="./betreuung#Informationen">Informationen</a>
+                        <a class="dropdown-item" href="./betreuung#Betreuungsgerichte">Betreuungsgerichte</a>
+                        <a class="dropdown-item" href="./betreuung#Formulare">Formulare</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -70,12 +70,12 @@
                         Vorsorge
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="./Vorsorge#Informationen">Informationen</a>
-                        <a class="dropdown-item" href="./Vorsorge#Formulare">Formulare</a>
+                        <a class="dropdown-item" href="./vorsorge#Informationen">Informationen</a>
+                        <a class="dropdown-item" href="./vorsorge#Formulare">Formulare</a>
                     </div>
                 </li>
                 <li>
-                    <a href="./Kontakt">Kontakt</a>
+                    <a href="./kontakt">Kontakt</a>
                 </li>
             </ul>
         </nav>
