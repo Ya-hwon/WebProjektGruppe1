@@ -6,7 +6,7 @@ include('./header.php');
 
 
 <main>
-    <h2 id="#Informationen">Ehrenamtliche Betreuung – auch für Sie ein Gewinn!</h2>
+    <h2 id="Informationen">Ehrenamtliche Betreuung – auch für Sie ein Gewinn!</h2>
     <p class="betreuungcontent">Möchten Sie einen Teil Ihrer Freizeit sinnvoll gestalten und eine ehrenamtliche Aufgabe im sozialen Bereich übernehmen? 
 	Sie helfen damit nicht nur anderen, sondern werden selbst neue Erkenntnisse gewinnen, vielfältige Erfahrungen machen und Ihren Horizont erweitern. 
 	Ein paar Stunden im Monat reichen oft aus, um einem altersgebrechlichen oder behinderten Menschen in der Regelung seiner Angelegenheiten zur Seite zu stehen.<br/><br/>
@@ -153,7 +153,7 @@ include('./header.php');
 	
 	
 	<h3 id="Betreuungsgerichte">12. Betreuungsgerichte</h3>
-	<p class="betreuungcontent"><b>Zuständig für alle im Landkreis Heidenheim anhängigen Betreuungsverfahren ist das Amtsgericht Heidenheim, Olgastr, 22, 89518 Heidenheim.</b><br/><br/>
+	<p class="betreuungcontent"><b>Zuständig für alle im Landkreis Heidenheim anhängigen Betreuungsverfahren ist das Amtsgericht Heidenheim, Olgastr. 22, 89518 Heidenheim.</b><br/><br/>
 	Sie erreichen die jeweiligen Stellen unter folgenden Durchwahlen:<br/><br/>
 	<u>Serviceeinheit in Betreuungssachen:</u><br/><br/>
 	Telefon: <a href="tel:+497321/381720">07321 – 381720</a>  - zuständig für Buchstaben:<br/>
@@ -170,14 +170,14 @@ include('./header.php');
 	
 	<h2 id="Formulare">13. Formulare</h2>
 	<div class="documents center">
-	<p><a href="src/doc/anregungbtr.pdf" download="Anregung_Betreuung.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+	<p><a class="download" href="src/doc/anregungbtr.pdf" download="Anregung_Betreuung.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
 	<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
 	<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
 	</svg> Anregung_Betreuung.pdf<br/></a>
-	<a href="index"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+	<a class="download" href="src/doc/Flyer2-Ehrenamt_gross.pdf" download="Flyer_Betreuung.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
 	<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
 	<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-	</svg> Beispiel_Download.pdf</a></p>
+	</svg> Flyer_Betreuung.pdf</a></p>
 	</div>
 
 </main>

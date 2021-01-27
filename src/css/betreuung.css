@@ -12,6 +12,11 @@ h2, h3, h4, h5, h6{
 	text-align:center;
 }
 
+.download{
+	color: black;
+	text-decoration:none;
+}
+
 
 .betreuungcontent{
 	margin-left: 10%;
