@@ -61,9 +61,8 @@ function adminHandler($num, $row, $data){
   for ($c=0; $c < $num; $c++) {
     echo '<td contenteditable="true">'.$data[$c].'</td>';
   }
-  echo '<td><button class="toremove" onclick="$(this).parent().parent().remove();renewAllIndices();">Remove</button></td></tr>';
+  echo '<td><button class="btn btn-primary toremove" onclick="$(this).parent().parent().remove();renewAllIndices();">Remove</button></td></tr>';
 }
-
 ?>
 <main>
 <h2>Admin Page</h2>
@@ -76,23 +75,23 @@ function adminHandler($num, $row, $data){
     $("tbody>tr>th:first-child").each(function(){$(this).text($(this).parent().index()+1);});
   }
 </script>
-<a href="/src/php/logout.php"><button>Logout</button></a>
+<a href="/src/php/logout.php"><button class="btn btn-primary">Logout</button></a>
 <?php
-echo '<h3>Termine</h3><button onclick="append(0);">Add</button>';
+echo '<h3>Termine</h3><button class="btn btn-primary" onclick="append(0);">Add</button>';
 readFromCSV('termine.csv', 'adminHandler');
 echo '</tbody>
 </table>';
-echo '<h3>Aktuelles</h3><button onclick="append(1);">Add</button>';
+echo '<h3>Aktuelles</h3><button class="btn btn-primary" onclick="append(1);">Add</button>';
 readFromCSV('aktuelles.csv', 'adminHandler');
 echo '</tbody>
 </table>';
-echo '<h3>Mitarbeiter</h3><button onclick="append(2);">Add</button>';
+echo '<h3>Mitarbeiter</h3><button class="btn btn-primary" onclick="append(2);">Add</button>';
 readFromCSV('mitarbeiter.csv','adminHandler');
 echo '</tbody>
 </table>';
 ?>
 
- <button id="saveCSVs" onclick="(function save(){
+ <button class="btn btn-primary" id="saveCSVs" onclick="(function save(){
    var elems = new Array;
    $('.toremove').parent().remove();
    $('th, td').each(function(index){elems.push($(this).text());});
