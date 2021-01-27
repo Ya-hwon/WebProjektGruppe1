@@ -81,16 +81,21 @@ table {
     
 }
 
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    
+    main {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    
+}
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
     
-    
-    
-}
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-    
-    
+    main {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
     
 }
