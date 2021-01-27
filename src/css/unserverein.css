@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+#Mitarbeiter {
+    margin-top: 0px;
+}
+
 .card {
     margin-left: auto;
     margin-right: auto;
@@ -16,8 +20,8 @@ a {
     box-shadow: 5px 5px 15px #cccccc;
 }
 
-.card-body {
-    
+.img-fluid {
+    width: 100%;
 }
 
 .card-title {
@@ -68,9 +72,9 @@ table {
 
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
+@media (min-width: 411px) { 
 
-    
+
     
 }
 

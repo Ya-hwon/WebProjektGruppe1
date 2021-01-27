@@ -50,8 +50,8 @@ function mitarbeiterHandler($num, $row, $data){
       <td><b>Anita Pfeiffer</b><br/>Schriftführerin</td>
     </tr>
     <tr>
-      <td><b>Prof. Johannes Falterbaum</b><br/>Besitzer</td>
-      <td><b>Josefine Bauer</b><br/>Besitzerin</td>
+      <td><b>Prof. Johannes Falterbaum</b><br/>Beisitzer</td>
+      <td><b>Josefine Bauer</b><br/>Beisitzerin</td>
     </tr>
   </tbody>
 </table>
