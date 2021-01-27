@@ -7,6 +7,8 @@ html{
 }
  h1, h2, h3, h4, h5, h6{
      font-family: 'Hammersmith One', sans-serif;
+     /* Fix anchor links not hidden by sticky header */
+     scroll-margin-top: 100px;
 }
  h1 {
      color: white;
@@ -197,6 +199,7 @@ html{
      color: white;
 }
  .dropdown-menu{
+     /*Override Booststrap Settings with important*/
      position: relative !important;
      transform: none !important;
      background-color: transparent;
@@ -328,6 +331,7 @@ html{
          margin: 0 10px 0 10px;
     }
      .dropdown-menu{
+         /*Override Booststrap Settings with important*/
          position: absolute !important;
          background-color: #2B4987;
          transform: translate3d(10px, 46px, 0px) !important;
