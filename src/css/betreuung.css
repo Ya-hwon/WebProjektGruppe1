@@ -9,8 +9,9 @@ h2, h3, h4, h5, h6{
 }
 
 .documents{
-	width:40%
+	text-align:center;
 }
+
 
 .betreuungcontent{
 	margin-left: 10%;
@@ -25,9 +26,6 @@ h2, h3, h4, h5, h6{
 	width:50%;
 	font-size: 18px;
 }
-.documents{
-	width:40%
-}
 
 }
 
@@ -36,9 +34,6 @@ h2, h3, h4, h5, h6{
 .directory{
 	width:40%;
 	font-size: 18px;
-}
-.documents{
-	width:20%
 }
 
 }
@@ -49,9 +44,6 @@ h2, h3, h4, h5, h6{
 	width:20%;
 	font-size: 18px;
 }
-.documents{
-	width:10%
-}
 
 }
 
@@ -61,7 +53,5 @@ h2, h3, h4, h5, h6{
 	width:20%;
 	font-size: 18px;
 }
-.documents{
-	width:10%
 }
-}
+

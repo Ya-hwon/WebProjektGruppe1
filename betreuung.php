@@ -6,7 +6,7 @@ include('./header.php');
 
 
 <main>
-    <h2>Ehrenamtliche Betreuung – auch für Sie ein Gewinn!</h2>
+    <h2 id="#Informationen">Ehrenamtliche Betreuung – auch für Sie ein Gewinn!</h2>
     <p class="betreuungcontent">Möchten Sie einen Teil Ihrer Freizeit sinnvoll gestalten und eine ehrenamtliche Aufgabe im sozialen Bereich übernehmen? 
 	Sie helfen damit nicht nur anderen, sondern werden selbst neue Erkenntnisse gewinnen, vielfältige Erfahrungen machen und Ihren Horizont erweitern. 
 	Ein paar Stunden im Monat reichen oft aus, um einem altersgebrechlichen oder behinderten Menschen in der Regelung seiner Angelegenheiten zur Seite zu stehen.<br/><br/>
@@ -18,7 +18,7 @@ include('./header.php');
 	Mail <a href="mailto:info@btv-hdh.de">info@btv-hdh.de</a><br/>
 	Fax 0261 2016182744<br/><br/>
 	
-	Kontaktformular</b>
+	<a href="/kontakt">Kontaktformular</a></b>
 	</p>
 	
 	
@@ -37,7 +37,7 @@ include('./header.php');
 		<li><a href="#Ansprüche">10. Ansprüche des Betreuers</a></li>
 		<li><a href="#Ende">11. Ende der Betreuung</a></li>
 		<li><a href="#Betreuungsgerichte">12. Betreuungsgerichte</a></li>
-		<li><a href="#documents">13. Formulare</a></li>
+		<li><a href="#Formulare">13. Formulare</a></li>
 	</ul>
 	
 	
@@ -168,11 +168,18 @@ include('./header.php');
 	<a href="http://www.amtsgericht-heidenheim.de/pb/,Lde/Startseite/Amtsgericht/Abteilungen+_+Serviceeinheiten" target="_blank">Verzeichnis</a> der Abteilungen und Serviceeinheiten des Amtsgerichts Heidenheim</p>
 	
 	
-	<h2 id="documents">13. Formulare</h2>
+	<h2 id="Formulare">13. Formulare</h2>
 	<div class="documents center">
-	<p><a href="src/doc/anregungbtr.pdf" download="Anregung_Betreuung.pdf">Anregung_Betreuung.pdf<br/></a>
-	<a href="index">Beispiel_Download.pdf</a></p>
+	<p><a href="src/doc/anregungbtr.pdf" download="Anregung_Betreuung.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+	<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+	<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+	</svg> Anregung_Betreuung.pdf<br/></a>
+	<a href="index"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+	<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+	<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+	</svg> Beispiel_Download.pdf</a></p>
 	</div>
+
 </main>
 
 <?php
