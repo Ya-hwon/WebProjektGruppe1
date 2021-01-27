@@ -3,20 +3,20 @@ session_start();
 if(isset($_SESSION['login'])) {
   header('LOCATION:admin'); die();
 }
+$error=false;
 if(isset($_POST['submit'])){
   $password = $_POST['password'];
   if(password_verify($password, '$2y$10$AWfj64e4rVhmORIlWCtMSuLELGdCYrnZaOMAxwVORrVggHyh8.U3K')){
-    $_SESSION['login'] = true;
-    header('LOCATION:admin');
-    die();
+    $_SESSION['login'] = true; header('LOCATION:admin'); die();
   } else{
-    echo "<div class='alert alert-danger'>Error</div>";
+    $error=true; //meh
   }
 }
 include('./header.php');
 ?>
 
 <main>
+  <?php if($error)echo "<div class='alert alert-danger'>Error</div>"; ?>
   <div class="container">
   <h3 class="text-center">Login</h3>
   <form action="" method="post"><!--TODO: markup -->
