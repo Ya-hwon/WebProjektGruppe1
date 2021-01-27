@@ -1,5 +1,12 @@
 h2 {
     text-align: center;
+    margin-top: 50px;
+}
+
+a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 .card {
@@ -37,6 +44,26 @@ h2 {
 
 table {
     max-width: 600px;
+}
+
+.button-mitglied-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.spenden-button {
+    margin-top: 10px;
+}
+
+.satzung-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
 }
 
 

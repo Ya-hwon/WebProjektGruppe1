@@ -29,13 +29,13 @@ function mitarbeiterHandler($num, $row, $data){
 <link rel="stylesheet" href="src/css/unserverein.css">
 
 <main>
-    <h2>Mitarbeiter</h2>
+<h2>Mitarbeiter</h2>
 
 <?php
   readFromCSV("mitarbeiter.csv",'mitarbeiterHandler');
 ?>
 
-<h2><br/>Vorstand</h2>
+<h2>Vorstand</h2>
 <img id="photo-vorstand" src="src/img/vorstand.JPG" alt="Gruppenfoto des Vorstands"> 
     
 <div class="vorstand-wrapper">
@@ -55,6 +55,28 @@ function mitarbeiterHandler($num, $row, $data){
     </tr>
   </tbody>
 </table>
+</div>
+    
+<h2>Mitglied werden</h2>
+<p><b>Möchten Sie Mitglied werden oder uns durch Ihre Spende unterstützen?</b><br/>
+Auch ohne Übernahme einer ehrenamtlichen Betreuung können Sie unsere Arbeit durch Ihre Mitgliedschaft oder eine Spende unterstützen. Die Mitgliedschaft ist kostenlos.</p>
+<div class="button-mitglied-wrapper">
+    <a href="https://www.btv-hdh.de/mitgliedschaft.html"><button type="button" class="btn btn-primary">Mitglied werden</button></a>
+    <a href="https://www.betterplace.org/de/projects/16164-qualifizierung-ehrenamtlicher-betreuerinnen-und-betreuer"><button type="button" class="btn btn-primary spenden-button">Spenden</button></a>
+</div>
+    
+<h2>Mitarbeit</h2>
+<p><b>Sie können es sich vostellen, ehrenamtlicher Betreuer zu werden?</b><br/>Mit einem Klick auf den folgenden Button können Sie sich weiter über die ehrenamtliche Betreuung informieren.</p>
+<div class="button-mitglied-wrapper">
+    <a href="https://www.btv-hdh.de/mitgliedschaft.html"><button type="button" class="btn btn-primary">Betreuer werden</button></a>
+</div>
+    
+<h2>Satzung</h2>
+<div class="satzung-wrapper">
+    <a href="/src/doc/SATZ.pdf" download="vereinssatzung"><p><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+    </svg> Vereinssatzung.pdf</p></a>
 </div>
 
 </main>
