@@ -76,20 +76,23 @@ function adminHandler($num, $row, $data){
   }
 </script>
 <a href="/src/php/logout.php"><button class="btn btn-primary">Logout</button></a>
-<?php
-echo '<h3>Termine</h3><button class="btn btn-primary" onclick="append(0);">Add</button>';
-readFromCSV('termine.csv', 'adminHandler');
-echo '</tbody>
-</table>';
-echo '<h3>Aktuelles</h3><button class="btn btn-primary" onclick="append(1);">Add</button>';
-readFromCSV('aktuelles.csv', 'adminHandler');
-echo '</tbody>
-</table>';
-echo '<h3>Mitarbeiter</h3><button class="btn btn-primary" onclick="append(2);">Add</button>';
-readFromCSV('mitarbeiter.csv','adminHandler');
-echo '</tbody>
-</table>';
-?>
+
+<h3>Termine</h3>
+<button class="btn btn-primary" onclick="append(0);">Add</button>
+<?php readFromCSV('termine.csv', 'adminHandler'); ?>
+</tbody>
+</table>
+<h3>Aktuelles</h3>
+<button class="btn btn-primary" onclick="append(1);">Add</button>
+<?php readFromCSV('aktuelles.csv', 'adminHandler'); ?>
+</tbody>
+</table>
+<h3>Mitarbeiter</h3>
+<button class="btn btn-primary" onclick="append(2);">Add</button>
+<?php readFromCSV('mitarbeiter.csv','adminHandler'); ?>
+</tbody>
+</table>
+
 
  <button class="btn btn-primary" id="saveCSVs" onclick="(function save(){
    var kill = false;
