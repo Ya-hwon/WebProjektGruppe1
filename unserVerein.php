@@ -29,13 +29,13 @@ function mitarbeiterHandler($num, $row, $data){
 <link rel="stylesheet" href="src/css/unserverein.css">
 
 <main>
-<h2>Mitarbeiter</h2>
+<h2 id="Mitarbeiter">Mitarbeiter</h2>
 
 <?php
   readFromCSV("mitarbeiter.csv",'mitarbeiterHandler');
 ?>
 
-<h2>Vorstand</h2>
+<h2 id="Vorstand">Vorstand</h2>
 <img id="photo-vorstand" src="src/img/vorstand.JPG" alt="Gruppenfoto des Vorstands"> 
     
 <div class="vorstand-wrapper">
@@ -57,7 +57,7 @@ function mitarbeiterHandler($num, $row, $data){
 </table>
 </div>
     
-<h2>Mitglied werden</h2>
+<h2 id="Mitglied">Mitglied werden</h2>
 <p><b>Möchten Sie Mitglied werden oder uns durch Ihre Spende unterstützen?</b><br/>
 Auch ohne Übernahme einer ehrenamtlichen Betreuung können Sie unsere Arbeit durch Ihre Mitgliedschaft oder eine Spende unterstützen. Die Mitgliedschaft ist kostenlos.</p>
 <div class="button-mitglied-wrapper">
@@ -65,7 +65,7 @@ Auch ohne Übernahme einer ehrenamtlichen Betreuung können Sie unsere Arbeit du
     <a href="https://www.betterplace.org/de/projects/16164-qualifizierung-ehrenamtlicher-betreuerinnen-und-betreuer"><button type="button" class="btn btn-primary spenden-button">Spenden</button></a>
 </div>
     
-<h2>Mitarbeit</h2>
+<h2 id="Mitarbeit">Mitarbeit</h2>
 <p><b>Sie können es sich vostellen, ehrenamtlicher Betreuer zu werden?</b><br/>Mit einem Klick auf den folgenden Button können Sie sich weiter über die ehrenamtliche Betreuung informieren.</p>
 <div class="button-mitglied-wrapper">
     <a href="https://www.btv-hdh.de/mitgliedschaft.html"><button type="button" class="btn btn-primary">Betreuer werden</button></a>
