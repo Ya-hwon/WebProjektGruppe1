@@ -1,0 +1,28 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: center;
+    color: #2B4987;
+}
+.list-unstyled{
+    text-align: center;
+}
+
+.documents center{
+    text-align: center;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
