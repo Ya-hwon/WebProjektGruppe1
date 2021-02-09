@@ -6,7 +6,7 @@
     echo '<div class="news-wrapper">
        <h3>'.$data[0].'</h3>
        <p>'.$data[1].'</p>'.
-       ($temp = empty($data[2])?'':
+       (empty($data[2])?'':
        '<button href="'.$data[2].'" class="btn btn-primary">'.$data[3].'</button>')
     .'</div>';
   }
@@ -21,7 +21,7 @@
           <h3>'.$data[0].'</h3>
           <p>'.$data[1].'</p>
           <p>'.$data[2].'</p>'.
-          ($temp = empty($data[3])?'':
+          (empty($data[3])?'':
           '<button href="'.$data[3].'" class="btn btn-primary">'.$data[4].'</button>')
        .'</div>
     </div>';
