@@ -62,7 +62,6 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="./betreuung#Informationen">Informationen</a>
-                        <a class="dropdown-item" href="./betreuung#Betreuungsgerichte">Betreuungsgerichte</a>
                         <a class="dropdown-item" href="./betreuung#Formulare">Formulare</a>
                     </div>
                 </li>

@@ -147,8 +147,8 @@ include('./header.php');
 	und bewegt sich zwischen 62,- € und 486,- €. Kriterien sind dabei Ausbildung des Betreuers, Aufenthaltsort der betreuten Person 
 	(stationäre Wohnform oder eigene Wohnung), Vermögenssituation sowie Dauer der Betreuungsmaßnahme.<br/><br/>
 	Bezahlen muss die Kosten der Betreute selbst, sofern dieser nicht als mittelos gilt. 
-	Aufwendungsersatz oder Betreuungsvergütung fallen in der Regel bei einem Gesamtver-mögen über 5.000,- € an. 
-	Gerichtsgebühren (dazu gehören auch die Kosten des Be-treuungsgutachtens) entstehen ab 25.000,- € Gesamtvermögen.</p>
+	Aufwendungsersatz oder Betreuungsvergütung fallen in der Regel bei einem Gesamtvermögen über 5.000,- € an. 
+	Gerichtsgebühren (dazu gehören auch die Kosten des Betreuungsgutachtens) entstehen ab 25.000,- € Gesamtvermögen.</p>
 	
 	
 	<h3 id="Ende">11.  Ende der Betreuung</h3>
