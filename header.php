@@ -1,7 +1,12 @@
+<!DOCTYPE html>
 <html lang="de">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Betreuungsverein Heidenheim e.V. - Bei uns finden Sie Hilfe zur rechtliche Betreuung und Vorsorge. Außerdem erhalten können Sie mehr über unserern Verein erfahren!"/>
+        
+        <link rel="shortcut icon" type="image/x-icon" href="./src/icon/favicon.png">
+        
         <title>Betreuungsverein Heidenheim e.V.</title>
 
         <!-- CSS Files -->
