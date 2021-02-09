@@ -1,5 +1,6 @@
 main{
     margin: 0;
+    padding-bottom: 150px;
 }
 
 h2{
@@ -33,6 +34,10 @@ section{
     width: 240px;
     border-radius: 10px;
     font-size: 20px;
+}
+
+.card{
+    overflow: hidden;
 }
 
 .event-wrapper{
@@ -71,6 +76,10 @@ section{
         line-height: 1;
     }
     
+    .section-cards{
+        display: flex;
+    }
+    
     .section-news{
         padding-right: 300px;
     }
@@ -101,6 +110,20 @@ section{
     
     .event-wrapper--detail{
         margin-left: 30px;
+    }
+    
+    .section-cards{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .card img{
+        height: 318px;
+        width: auto;
+    }
+    
+    .card{
+        width: 30%;
     }
 }
 
