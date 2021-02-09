@@ -119,13 +119,13 @@ Klinikum Heidenheim bietet auch regelmäßig Informationsveranstaltungen an.</hr
 <h3 id="Formulare">4. Formulare</h3>
 <div class="documents center">
 <p>
-<a href="betreuungsverfuegung.pdf" download="betreuungsverfuegung.pdf">Betreuungsverfügung.pdf<br/></a>
-<a href="betreuungsverfuegung.doc">Betreuungsverfügung.doc<br/></a>
-<a href="patientenverfuegung.pdf" download="patientenverfuegung.pdf">Patientenverfügung.pdf<br/></a>
-<a href="patientenverfuegung.doc">Patientenverfügung.doc<br/></a>
-<a href="vollmacht.pdf" download="vollmacht.pdf">Vollmacht.pdf<br/></a>
-<a href="vollmacht.doc">Vollmacht.doc<br/></a>
-<a href="Broschuere_Vorsorge.pdf" download="Broschuere_Vorsorge.pdf">Broschüre_Vorsorge.pdf<br/></a>
+<a href="src/doc/Verfuegung_Betreuung.pdf" download="betreuungsverfuegung.pdf">Betreuungsverfügung.pdf<br/></a>
+<a href="src/doc/Verfuegung_Betreuung.doc">Betreuungsverfügung.doc<br/></a>
+<a href="src/doc/Patientenverfuegung_Vorsorge.pdf" download="patientenverfuegung.pdf">Patientenverfügung.pdf<br/></a>
+<a href="src/doc/Patientenverfuegung_Vorsorge.doc">Patientenverfügung.doc<br/></a>
+<a href="src/doc/Vollmacht_Vorsorge.pdf" download="vollmacht.pdf">Vollmacht.pdf<br/></a>
+<a href="src/doc/Vollmacht_Vorsorge.doc">Vollmacht.doc<br/></a>
+<a href="src/doc/Broschuere_Vorsorge.pdf" download="Broschuere_Vorsorge.pdf">Broschüre_Vorsorge.pdf<br/></a>
 </p>
 </div>
 
