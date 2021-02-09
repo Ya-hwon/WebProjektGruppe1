@@ -10,9 +10,9 @@ include('./header.php');
     <p id="impressumcontent">
       1. Vorsitzende: Sabine Dernai
       <br/>
-      Geschäftsführer: <a href="" >Stefan Kauffmann</a>
+      Geschäftsführer: <a href="unserverein#stefan-kauffmann-foto.jpg" >Stefan Kauffmann</a>
       <br/><br/>
-      Verantwortlich für den Inhalt nach &#0167; 55 Abs. 2 RStV: <a href="" >Stefan Kauffmann</a>
+      Verantwortlich für den Inhalt nach &#0167; 55 Abs. 2 RStV: <a href="unserverein#stefan-kauffmann-foto.jpg" >Stefan Kauffmann</a>
       <br/><br/>
       Postanschrift: <a href="https://maps.google.com/?q=Felsenstr. 36, 89518 Heidenheim" target="_blank">Felsenstr. 36, 89518 Heidenheim</a>
       <br/>

@@ -3,7 +3,7 @@ include('src/php/read.php');
 include('./header.php');
 function mitarbeiterHandler($num, $row, $data){
   if($num<>7||$row==1)return;
-      echo '<div class="card mb-3" style="max-width: 540px">
+      echo '<div id="'.$data[2].'" class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
             <img
@@ -36,8 +36,8 @@ function mitarbeiterHandler($num, $row, $data){
 ?>
 
 <h2 id="Vorstand">Vorstand</h2>
-<img id="photo-vorstand" src="src/img/vorstand.JPG" alt="Gruppenfoto des Vorstands"> 
-    
+<img id="photo-vorstand" src="src/img/vorstand.JPG" alt="Gruppenfoto des Vorstands">
+
 <div class="vorstand-wrapper">
 <table class="table table-bordered">
   <tbody>
@@ -56,7 +56,7 @@ function mitarbeiterHandler($num, $row, $data){
   </tbody>
 </table>
 </div>
-    
+
 <h2 id="Mitglied">Mitglied werden</h2>
 <p><b>Möchten Sie Mitglied werden oder uns durch Ihre Spende unterstützen?</b><br/>
 Auch ohne Übernahme einer ehrenamtlichen Betreuung können Sie unsere Arbeit durch Ihre Mitgliedschaft oder eine Spende unterstützen. Die Mitgliedschaft ist kostenlos.</p>
@@ -64,13 +64,13 @@ Auch ohne Übernahme einer ehrenamtlichen Betreuung können Sie unsere Arbeit du
     <a href="https://www.btv-hdh.de/mitgliedschaft.html"><button type="button" class="btn btn-primary">Mitglied werden</button></a>
     <a href="https://www.betterplace.org/de/projects/16164-qualifizierung-ehrenamtlicher-betreuerinnen-und-betreuer"><button type="button" class="btn btn-primary spenden-button">Spenden</button></a>
 </div>
-    
+
 <h2 id="Mitarbeit">Mitarbeit</h2>
 <p><b>Sie können es sich vostellen, ehrenamtlicher Betreuer zu werden?</b><br/>Mit einem Klick auf den folgenden Button können Sie sich weiter über die ehrenamtliche Betreuung informieren.</p>
 <div class="button-mitglied-wrapper">
     <a href="https://www.btv-hdh.de/mitgliedschaft.html"><button type="button" class="btn btn-primary">Betreuer werden</button></a>
 </div>
-    
+
 <h2>Satzung</h2>
 <div class="satzung-wrapper">
     <a href="/src/doc/SATZ.pdf" download="vereinssatzung"><p><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">

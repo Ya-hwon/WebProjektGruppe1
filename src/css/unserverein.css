@@ -18,6 +18,7 @@ a {
     margin-right: auto;
     margin-top: 20px;
     box-shadow: 5px 5px 15px #cccccc;
+    scroll-margin-top: 100px !important;
 }
 
 .img-fluid {
@@ -68,39 +69,39 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;    
+    width: 100%;
 }
 
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 411px) { 
+@media (min-width: 411px) {
 
 
-    
+
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    
-    
-    
+
+
+
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    
+
     main {
         padding-left: 60px;
         padding-right: 60px;
     }
-    
+
 }
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-    
+
     main {
         padding-left: 200px;
         padding-right: 200px;
     }
-    
+
 }

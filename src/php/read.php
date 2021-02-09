@@ -1,5 +1,4 @@
 <?php
-
 function readFromCSV($fName, $dataHandler){
   $row = 1;
   if (($handle = fopen("src/csv/".$fName, "r")) !== FALSE) {
@@ -11,5 +10,4 @@ function readFromCSV($fName, $dataHandler){
     fclose($handle);
   }
 }
-
 ?>

@@ -1,6 +1,33 @@
 <?php
-   include('./header.php');
-   ?>
+  include('src/php/read.php');
+  include('./header.php');
+  function newsHandler($num, $row, $data){
+    if($num<>4||$row==1)return;
+    echo '<div class="news-wrapper">
+       <h3>'.$data[0].'</h3>
+       <p>'.$data[1].'</p>'.
+       ($temp = empty($data[2])?'':
+       '<button href="'.$data[2].'" class="btn btn-primary">'.$data[3].'</button>')
+    .'</div>';
+  }
+  function eventHandler($num, $row, $data){
+    if($num<>5||$row==1)return;
+    echo '<div class="event-wrapper">
+       <div class="event-wrapper--short">
+          <p>'.substr($data[1],0,5).'</p>
+          <img src="./src/icon/calendar.svg"/>
+       </div>
+       <div class="event-wrapper--detail">
+          <h3>'.$data[0].'</h3>
+          <p>'.$data[1].'</p>
+          <p>'.$data[2].'</p>'.
+          ($temp = empty($data[3])?'':
+          '<button href="'.$data[3].'" class="btn btn-primary">'.$data[4].'</button>')
+       .'</div>
+    </div>';
+  }
+
+?>
 <link rel="stylesheet" href="src/css/index.css">
 <main>
    <div class="container-hero">
@@ -22,43 +49,15 @@
    </section>
    <section class="section-news">
       <h2>Aktuelle Informationen</h2>
-      <div class="news-wrapper">
-         <h3>Placeholder Heading</h3>
-         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-         <button class="btn btn-primary">Mehr erfahren</button>
-      </div>
-      <div class="news-wrapper">
-         <h3>Placeholder Heading</h3>
-         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-         <button class="btn btn-primary">Mehr erfahren</button>
-      </div>
+      <?php
+        readFromCSV("aktuelles.csv",'newsHandler');
+      ?>
    </section>
    <section>
       <h2>Veranstaltungskalender</h2>
-      <div class="event-wrapper">
-         <div class="event-wrapper--short">
-            <p>26.02</p>
-            <img src="./src/icon/calendar.svg"/>
-         </div>
-         <div class="event-wrapper--detail">
-            <h3>name</h3>
-            <p>DD.MM.YYYY - HH:MM</p>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-            <button class="btn btn-primary">Mehr erfahren</button>
-         </div>
-      </div>
-      <div class="event-wrapper">
-         <div class="event-wrapper--short">
-            <p>26.02</p>
-            <img src="./src/icon/calendar.svg"/>
-         </div>
-         <div class="event-wrapper--detail">
-            <h3>name</h3>
-            <p>DD.MM.YYYY - HH:MM</p>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-            <button class="btn btn-primary">Mehr erfahren</button>
-         </div>
-      </div>
+      <?php
+        readFromCSV("termine.csv",'eventHandler')
+      ?>
    </section>
 </main>
 <?php
