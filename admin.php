@@ -96,7 +96,7 @@ function adminHandler($num, $row, $data){
 
  <button class="btn btn-primary" id="saveCSVs" onclick="(function save(){
    var kill = false;
-   $('td[contenteditable]').each(function(index){if(!isNaN($(this).text())){$(this).css('color','red');kill=true;}});
+   $('td[contenteditable]').each(function(index){if(!isNaN($(this).text())&!$(this).text()==''){$(this).css('background-color','red');kill=true;}});
    if(kill)return;
    var elems = new Array;
    $('.toremove').parent().remove();
