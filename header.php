@@ -23,6 +23,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
     </head>
 
     <header class="d-flex flex-row align-items-center">
