@@ -26,8 +26,15 @@ html{
      color: #2B4987;
      font-size: 20px;
 }
+ h5 {
+    color: white;
+    font-size: 20px;
+}
  p {
      font-size: 16px;
+}
+hr {
+    border-color: #b4bed4;
 }
 /* Buttons */
  .btn-primary {
@@ -146,6 +153,53 @@ html{
      margin: 0;
     /* Clearing default margin */
 }
+
+/* Footer */
+footer {
+    width: 100%;
+    
+    background-color: #05286C;
+    border-top: 1px solid #E3E3E3;
+    padding: 30px;
+}
+
+.footer-content--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.footer--links {
+    color: white;
+}
+
+.footer--links:hover {
+    color: white;
+}
+
+.footer-content--menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-content--legal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.footer-content--copyright {
+    color: #b4bed4;
+    width: 100%;
+    text-align: center;
+}
+
 /* Devices smaller than 576 px*/
 /*Header */
  header{
@@ -230,6 +284,9 @@ html{
      h4 {
          font-size: 20px;
     }
+     h5 {
+         font-size: 20px;
+    }
      p {
          font-size: 16px;
     }
@@ -248,9 +305,33 @@ html{
      h4 {
          font-size: 22px;
     }
+     h5 {
+         font-size: 22px;
+    }
      p {
          font-size: 18px;
     }
+     
+    /* Footer */
+    .footer-content--wrapper {
+         flex-direction: row;
+         justify-content: space-around;
+         align-items: flex-start;
+    }
+     
+     .footer-content--menu {
+         align-items: flex-start;
+     }
+     
+     .footer-content--legal {
+         align-items: flex-start;
+         margin-top: 0px;
+     }
+     
+     .footer-content--copyright {
+         width: 100%;
+         text-align: center;
+     }
 }
 /*Large devices (desktops, 992px and up)*/
  @media (min-width: 992px) {
@@ -264,6 +345,9 @@ html{
          font-size: 30px;
     }
      h4 {
+         font-size: 25px;
+    }
+     h5 {
          font-size: 25px;
     }
      p {
@@ -283,6 +367,9 @@ html{
          font-size: 30px;
     }
      h4 {
+         font-size: 25px;
+    }
+     h5 {
          font-size: 25px;
     }
      p {
@@ -336,4 +423,32 @@ html{
          background-color: #2B4987;
          transform: translate3d(10px, 46px, 0px) !important;
     }
+}
+
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
      
