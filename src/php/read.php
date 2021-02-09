@@ -7,10 +7,6 @@ function readFromCSV($fName, $dataHandler){
         $num = count($data);
         $dataHandler($num, $row, $data);
         $row++;
-        /*echo "<p> $num fields in line $row: <br /></p>\n";
-        for ($c=0; $c < $num; $c++) {
-            echo $data[$c] . "<br />\n";
-        }*/
     }
     fclose($handle);
   }
