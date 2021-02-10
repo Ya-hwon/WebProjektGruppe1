@@ -12,7 +12,7 @@ include('./header.php');
 	Ein paar Stunden im Monat reichen oft aus, um einem altersgebrechlichen oder behinderten Menschen in der Regelung seiner Angelegenheiten zur Seite zu stehen.<br/><br/>
 	Als ehrenamtlicher Betreuer erhalten Sie umfassende Beratung, Einführung und Schulung. Außerdem sind Sie haftpflicht- und unfallversichert und bekommen Ihre Aufwendungen ersetzt.<br/><br/>
 	Fordern Sie unverbindlich Informationen an oder vereinbaren Sie einfach einen Termin mit uns. Trauen Sie sich, Ihre Fähigkeiten für einen guten Zweck einzusetzen!<br/><br/>
-	<b><a href="src/doc/Flyer2-Ehrenamt_gross.pdf" download="Flyer_Betreuung.pdf">Flyer<br/><br/></a>
+	<b><a href="src/doc/Flyer_Betreuung.pdf" download="Flyer_Betreuung.pdf">Flyer<br/><br/></a>
 	Ihr Ansprechpartner: Stefan Kauffmann (Geschäftsführer)<br/><br/>
 	Tel. <a href="tel:+497321/943060">07321 943060</a><br/>
 	Mail <a href="mailto:info@btv-hdh.de">info@btv-hdh.de</a><br/>
@@ -40,7 +40,7 @@ include('./header.php');
 		<li><a href="#WeitereInformationen">13. Weitere Informationen</a></li>
 		<li><a href="#Formulare">14. Formulare</a></li>
 	</ul>
-	
+
 	
 	<h3 id="RechtlicheBetreuung">1. Was bedeutet Rechtliche Betreuung?</h3>
 	<p class="betreuungcontent">
@@ -52,13 +52,13 @@ include('./header.php');
 	Die Betreuung hat grundsätzlich keinen Einfluss auf die Geschäftsfähigkeit der betreuten Person. Das Wahlrecht sowie die Möglichkeiten zur Eheschließung und zur Testamentserrichtung bleiben erhalten.<br/><br/>
 	Wünsche des Betreuten sind vom Betreuer grundsätzlich zu beachten, soweit diese ihm zumutbar sind und dem Wohl der betroffenen Person nicht zuwiderlaufen.<br/><br/>
 	Das Betreuungsgesetz wurde bislang viermal reformiert.</p>
-	
+	<hr/>
 	
 	<h3 id="GesetzlicheGrundlagen">2. Gesetzliche Grundlagen</h3>
 	<p class="betreuungcontent">Das materielle Betreuungsrecht ist im Bürgerlichen Gesetzbuch (BGB) geregelt. Insbesondere im Bereich der Vermögenssorge finden sich viele Querverweise auf das Vormundschaftsrecht für Minderjährige.<br/><br/>
 	Das Betreuungsverfahren ist seit 01.09.2009 im Gesetz über das Verfahren in Familiensachen und in den Angelegenheiten der freiwilligen Gerichtsbarkeit geregelt (FamFG).<br/><br/>
 	Die Aufgaben der örtlichen Betreuungsbehörde finden sich im Betreuungsbehördengesetz, die Bestimmungen zur Bezahlung von Berufsbetreuern im Gesetz über die Vergütung von Berufsbetreuern und Berufsvormündern.</p>
-	
+	<hr/>
 	
 	<h3 id="Voraussetzungen">3. Voraussetzungen einer Betreuung</h3>
 	<p class="betreuungcontent">Für die Anordnung einer Betreuung muss eine psychische Krankheit, eine körperliche, geistige oder seelische Behinderung vorliegen. 
@@ -68,10 +68,10 @@ include('./header.php');
 	Gegen den freien Willen des Betroffenen darf keine Betreuung angeordnet werden.<br/><br/>
 	Bei einer rein körperlichen Behinderung ist die Zustimmung der betroffenen Person erforderlich.<br/><br/>
 	Die Betreuungsmaßnahme darf für längstens 7 Jahre angeordnet werden.</p>
-	
+	<hr/>
 	
 	<h3 id="Betreuungsverfahren">4. Das Betreuungsverfahren</h3>
-	<p class="betreuungcontent">Zuständig ist das Betreuungsgericht, welches entweder auf <a href="src/doc/Betreuungsanregung.pdf" download>Antrag</a> des Betroffenen oder auf Anregung Dritter die Notwendigkeit einer Betreuungsmaßnahme überprüft. 
+	<p class="betreuungcontent">Zuständig ist das Betreuungsgericht, welches entweder auf <a href="src/doc/Anregung_Betreuung.pdf" download>Antrag</a> des Betroffenen oder auf Anregung Dritter die Notwendigkeit einer Betreuungsmaßnahme überprüft. 
 	Dies ist in der Regel das Amtsgericht, in dessen Bezirk der Betroffene seinen gewöhnlichen Aufenthalt hat.<br/><br/>
 	Das gerichtliche Verfahren sieht die Einholung eines nervenärztlichen Gutachtens vor (ersatzweise kann das Pflegegutachten des Medizinischen Dienstes herangezogen werden), 
 	die persönliche Anhörung der betroffenen Person durch das Betreuungsgericht und in besonderen Fällen die Einbeziehung eines sog. Verfahrenspflegers.
@@ -83,13 +83,13 @@ include('./header.php');
 	Wenn anzunehmen ist, dass bei Eintritt der Volljährigkeit eine Betreuung notwendig ist, kann diese bereits mit Vollendung des 17. Lebensjahres geprüft und angeordnet werden. 
 	Die Maßnahme wird dann mit Erreichen der Volljährigkeit sofort wirksam.<br/><br/>
 	In Eilfällen ist eine vorläufige Betreuungseinrichtung möglich (max. 1 Jahr)</p>
-	
+	<hr/>
 	
 	<h3 id ="Aufgabenkreise">5. Aufgabenkreise</h3>
 	<p class="betreuungcontent">Die Betreuung wird nicht grundsätzlich für alle Angelegenheiten angeordnet, sondern nur für die konkret erforderlichen Aufgabenkreise.<br/><br/>
 	Die häufigsten Aufgabenkreise sind: Vermögenssorge, Gesundheitsfürsorge bzw. Einwilligung in Heilbehandlungen, Aufenthaltsbestimmung ggf. 
 	mit Einwilligung in freiheitsentziehende Maßnahmen, Wohnungs- und Heimangelegenheiten sowie Regelung des Postverkehrs im Rahmen der Aufgabenkreise.</p>
-	
+	<hr/>
 	
 	<h3 id="Auswahl">6. Auswahl des Betreuers</h3>
 	<div class="betreuungcontent">
@@ -106,7 +106,7 @@ include('./header.php');
 	<li><p>Örtliche Betreuungsbehörde, falls sonst niemand zur Verfügung steht.</p></li>
 	</ul></p>
 	</div>
-	
+	<hr/>
 	
 	<h3 id="Pflichten">7. Pflichten des Betreuers</h3>
 	<p class="betreuungcontent">Die Betreuung sohl dem Wohl des Betreuten dienen, dessen Wünsche und Interessen sind zu beachten, solange sie dessen Wohl nicht zuwiderlaufen und dem Betreuer zuzumuten sind. 
@@ -120,7 +120,8 @@ include('./header.php');
 	Jeder Betreuer muss i.d.R. einmal im Jahr einen Bericht über die persönlichen Verhältnisse des Betreuten anfertigen.<br/><br/>
 	Der Betreuer darf keine Schenkungen aus dem Vermögen des Betreuten vornehmen mit Ausnahme sog. Anstands- oder Sittlichkeitsschenkungen. Im Zweifel ist vorher Rücksprache mit dem Betreuungsgericht zu nehmen.<br/><br/>
 	Praxistipp: Kontoauszüge und Belege immer aufbewahren, auch bei befreiter Betreuung, Auszahlungen an den Betreuten oder an Dritte immer quittieren lassen.</p>
-	
+	<hr/>
+
 	
 	<h3 id="Genehmigung">8. Genehmigungen des Betreuungsgerichts</h3>
 	<p class="betreuungcontent">Der Betreuer muss vor einigen wichtigen Entscheidungen eine zusätzliche Genehmigung des Betreuungsgerichts einholen.<br/><br/>
@@ -130,14 +131,14 @@ include('./header.php');
 	Im Bereich Vermögenssorge: Verkauf oder Belastung von Grundbesitz des Betreuten, Aufnahme eines Darlehens, Wertpapiergeschäfte.<br/><br/>
 	Die Anlage von Betreutengeldern auf Sparbüchern, Festgeldern usw. und deren Abhebung ist grundsätzlich zu genehmigen außer bei befreiten Betreuern. Verfügungen über Girokonten sind genehmigungsfrei.<br/><br/>
 	Bei Bedarf können auch nicht befreite Betreuer eine allgemeine oder spezielle Ermächtigung zur Verfügung über größere Beträge beim Betreuungsgericht beantragen, z.B. zur monatlichen Überweisung von Heimkosten.</p>
-	
+	<hr/>
 	
 	<h3 id="Einwilligungsvorbehalt">9. Einwilligungsvorbehalt</h3>
 	<p class="betreuungcontent">Da die betreute Person grundsätzlich geschäftsfähig bleibt, kann die weiterhin Geschäfte und Verträge abschließen und es kann zu konkurrierendem Handeln zwischen Betreuer und Betreutem kommen.<br/><br/>
 	Falls dadurch die Gefahr besteht, dass sich der Betreute erheblich schädigt, kann der Betreuer beim Betreuungsgericht einen sog. Einwilligungsvorbehalt beantragen. 
 	Dieser wird in einem gesonderten Verfahren geprüft und hat zur Folge, dass für bestimmte Willenserklärungen des Betreuten die Zustimmung des Betreuers erforderlich ist.<br/><br/>
 	In der Praxis wird ein Einwilligungsvorbehalt oft angeordnet, um psychisch kranke, geistig behinderte oder demenzkranke Menschen vor nachteiligen Verträgen oder Geldgeschäften zu schützen.</p>
-	
+	<hr/>
 	
 	<h3 id="Ansprüche">10. Ansprüche des Betreuers</h3>
 	<p class="betreuungcontent">Ehrenamtliche Betreuer haben Anspruch auf eine Aufwandspauschale von 400,- € jährlich oder können sich ihre Aufwendungen auf konkreten Nachweis erstatten lassen. 
@@ -149,7 +150,7 @@ include('./header.php');
 	Bezahlen muss die Kosten der Betreute selbst, sofern dieser nicht als mittelos gilt. 
 	Aufwendungsersatz oder Betreuungsvergütung fallen in der Regel bei einem Gesamtvermögen über 5.000,- € an. 
 	Gerichtsgebühren (dazu gehören auch die Kosten des Betreuungsgutachtens) entstehen ab 25.000,- € Gesamtvermögen.</p>
-	
+	<hr/>
 	
 	<h3 id="Ende">11.  Ende der Betreuung</h3>
 	<p class="betreuungcontent">Die Betreuung endet mit dem Tod der betreuten Person. 
@@ -158,14 +159,15 @@ include('./header.php');
 	Nur bei Gefahr im Verzug sind Eilmaßnahmen zu treffen bzgl. der Wohnung, Versorgung von Haustieren o.ä.<br/><br/>
 	Der Betreuer muss einen Schlussabrechnung erstellen und seinen Betreuerausweis an das Betreuungsgericht zurückgeben.<br/><br/>
 	Die Betreuung ist schon vorher aufzuheben, wenn deren Voraussetzungen nicht mehr vorliegen (z.B. durch Besserung des Gesundheitszustands).</p>
-	
+	<hr/>
 	
 	<h3 id="Beratung">12. Beratung und Unterstützung</h3>
 	<p class="betreuungcontent">Neben dem Betreuungsverein berät die <a href="https://www.landkreis-heidenheim.de/Landratsamt/StabsbereicheStabsstelle/Kommunalaufsicht/Betreuungsbehoerde/index.htm" target="_blank">Betreuungsbehörde des Landratsamts Heidenheim</a> in allen Fragen zum Betreuungsrecht.<br/><br/>
 	Das <a href="https://amtsgericht-heidenheim.justiz-bw.de/pb/,Lde/Startseite/Amtsgericht/Abteilungen+_+Serviceeinheiten" target="_blank">Betreuungsgericht beim Amtsgericht Heidenheim</a> entscheidet über die Umfang und die Aufhebung einer Betreuung sowie über die Auswahl und Bestellung des Betreuers. 
 	Das Betreuungsgericht berät und beaufsichtigt die Betreuer bei der Betreuungsführung.<br/><br/>
-	Wichtige Kontaktadressen für den Landkreis Heidenheim finden sich auch in der Broschüre <a href="src/doc/VorsorgeBroschüre.pdf" download="Broschüre_Vorsorge.pdf">„Rechtzeitig vorsorgen für Alter, Krankheit und Unfall“</a>.
+	Wichtige Kontaktadressen für den Landkreis Heidenheim finden sich auch in der Broschüre <a href="src/doc/Broschuere_Vorsorge.pdf" download="Broschuere_Vorsorge.pdf">„Rechtzeitig vorsorgen für Alter, Krankheit und Unfall“</a>.
 	</p>
+	<hr/>
 
 	<h3 id="WeitereInformationen">13. Weitere Informationen</h3>
 	<p class="betreuungcontent">Das Bundesministerium der Justiz und für Verbraucherschutz (<a href="https://www.bmjv.de/SharedDocs/Publikationen/DE/Betreuungsrecht.html;jsessionid=5FE555A4B84D8BED89B9C54B75B082CC.1_cid289?nn=6765634" target="_blank">BMJV</a>) informiert umfassend zum Betreuungsrecht; 
@@ -182,15 +184,15 @@ include('./header.php');
 	
 	<h2 id="Formulare">14. Formulare</h2>
 	<div class="documents center">
-	<p><a class="download" href="src/doc/anregungbtr.pdf" download="Anregung_Betreuung.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+	<p><a class="download" href="src/doc/Anregung_Betreuung.pdf" download="Anregung_Betreuung.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
 	<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
 	<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
 	</svg> Anregung_Betreuung.pdf<br/></a>
-	<a class="download" href="src/doc/VorsorgeBroschüre.pdf" download="Broschüre_Vorsorge.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+	<a class="download" href="src/doc/Broschuere_Vorsorge.pdf" download="Broschuere_Vorsorge.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
 	<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
 	<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
 	</svg> Broschüre_Vorsorge.pdf<br/></a>
-	<a class="download" href="src/doc/Flyer2-Ehrenamt_gross.pdf" download="Flyer_Betreuung.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+	<a class="download" href="src/doc/Flyer_Betreuung.pdf" download="Flyer_Betreuung.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
 	<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
 	<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
 	</svg> Flyer_Betreuung.pdf</a></p>

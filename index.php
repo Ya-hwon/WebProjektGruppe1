@@ -33,17 +33,35 @@
    <div class="container-hero">
       <div class="container-hero-inner">
          <p class="container-hero--callout__first">Wir lassen Sie nicht <br/> im Regen stehen</p>
-         <p class="container-hero--callout__second">Bei uns finden Sie zur rechtliche Betreuung und Vorsorge</p>
+         <p class="container-hero--callout__second">Bei uns finden Sie Hilfe zur rechtliche Betreuung und Vorsorge</p>
          <button class="btn-primary">Zu unseren Angeboten</button>
       </div>
    </div>
-   <section>
-      <div class="card" style="width: 18rem;">
-         <img class="card-img-top" src="..." alt="Card image cap">
+   <section class="section-cards">
+      <div class="card">
+         <img class="card-img-top" src="./src/img/unserVerein.jpg" alt="Card image cap">
          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h2 class="card-title">Unser Verein</h2>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="./unserVerein" class="btn btn-primary">Mehr erfahren</a>
+         </div>
+      </div>
+       
+       <div class="card">
+         <img class="card-img-top" src="./src/img/betreuung.jpg" alt="Card image cap">
+         <div class="card-body">
+            <h2 class="card-title">Betreuung</h2>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="./betreuung" class="btn btn-primary">Mehr erfahren</a>
+         </div>
+      </div>
+       
+             <div class="card">
+         <img class="card-img-top" src="./src/img/vorsorge.jpg" alt="Card image cap">
+         <div class="card-body">
+            <h2 class="card-title">Vorsorge</h2>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="./vorsorge" class="btn btn-primary">Mehr erfahren</a>
          </div>
       </div>
    </section>
