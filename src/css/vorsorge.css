@@ -1,28 +1,62 @@
-html{
-    font-family: 'Roboto', sans-serif;
+.center{
+	margin-left:auto;
+	margin-right: auto;
 }
 
 h2, h3, h4, h5, h6{
-    font-family: 'Hammersmith One', sans-serif;
-    text-align: center;
-    color: #2B4987;
-}
-.list-unstyled{
-    text-align: center;
+	margin-top: 40px;
+    text-align:center;
 }
 
-.documents center{
-    text-align: center;
+.documents{
+	text-align:center;
+}
+
+.download{
+	color: black;
+	text-decoration:none;
+}
+
+
+.vorsorgecontent{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 25px;
+	width: 80%;
 }
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) { 
+.directory{
+	width:50%;
+	font-size: 18px;
+}
+
+}
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { 
+.directory{
+	width:40%;
+	font-size: 18px;
+}
+
+}
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) { 
+.directory{
+	width:20%;
+	font-size: 18px;
+}
+
+}
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+.directory{
+	width:20%;
+	font-size: 18px;
+}
+}
+
