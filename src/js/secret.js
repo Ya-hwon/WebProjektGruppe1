@@ -1,12 +1,10 @@
 function setup() {
-  $(document).ready(function(){
-  canvas = createCanvas(windowWidth*0.8, windowHeight*0.5);
-  canvas.center('horizontal');
-  $('footer').css('margin-top',''+(windowHeight*0.6)+'px');
-  canvas.canvas.style.display = "none";
-  frameRate(60);
-  textSize(32);
-}
+    canvas = createCanvas(windowWidth*0.8, windowHeight*0.5);
+    canvas.center('horizontal');
+    $('footer').css('margin-top',''+(windowHeight*0.6)+'px');
+    canvas.canvas.style.display = "none";
+    frameRate(60);
+    textSize(32);
 }
 function activate(){
   canvas.canvas.style.display = "block";
@@ -18,7 +16,7 @@ var canvas;
 
 var roundActive = false;
 
-var gravity = 0.07;
+var gravity = 0.03;
 
 var mult = 1.0;
 
@@ -54,7 +52,7 @@ class Player{
   constructor(){
     this.x = 0;
     this.y = 0;
-    this.size = 100;
+    this.size = 150;
   }
   draw(){
     fill(255);
@@ -70,7 +68,7 @@ class Person{
     this.lifetime = lifetime;
     this.beginlifetime = lifetime;
     this.points = points;
-    this.hit = false;
+    this.hits = 0;
   }
   draw(){
     fill(255);
@@ -80,7 +78,7 @@ class Person{
     line(this.x, this.y+this.size*2, this.x-this.size/3, this.y+this.size*2.5);//left leg
     line(this.x, this.y+this.size,this.x+this.size/4, this.y+this.size*1.5);//right arm
     line(this.x, this.y+this.size,this.x-this.size/4, this.y+this.size*1.5);//left arm
-    fill(this.hit?'red':'green');
+    fill(this.hits==0?'green':this.hits==1?'orange':'red');
     var val = map(this.lifetime, 0, this.beginlifetime, PI, -PI);
     arc(this.x, this.y, this.size, this.size, -PI, val, PIE);
   }
@@ -104,7 +102,7 @@ function collision(){
     var c = Math.sqrt( a*a + b*b );
     if(droplets[i].y<player.y&(c<=(player.size/2+droplets[i].size*2))){
       points+=mult;
-      mult+=0.01;
+      mult+=0.1;
       droplets.splice(i, 1);
       i--;
       continue;
@@ -115,13 +113,13 @@ function collision(){
       var c = Math.sqrt( a*a + b*b );
       var tocontinue = false;
       if(c<=droplets[i].size*2+ppl[e].size/2){
-        if(ppl[e].hit)gameOver();
+        if(ppl[e].hits>2)gameOver();
         if(hits>5)gravity*1.5;
         hits++;
-        points/=2*mult;
+        points/=mult;
         ppl[e].points/=2;
         mult=1.0;
-        ppl[e].hit=true;
+        ppl[e].hits++;
         droplets.splice(i, 1);
         i--;
         tocontinue=true;
@@ -167,12 +165,12 @@ function draw() {
     if(frameCount%16==0)genDroplet();
     if(frameCount>1000&frameCount%32==0)genDroplet();
     if(frameCount>10000&frameCount%16==0)genDroplet();
-    if(frameCount%120==0)genPerson();
+    if(frameCount%180==0)genPerson();
     droplets.forEach(d => d.update());
     collision();
     for(var e = 0; e < ppl.length; e++){
       if(ppl[e].update()){
-        mult+=0.1;
+        mult+=0.5;
         points+=ppl[e].points*mult;
         ppl.splice(e, 1);
         e--;
@@ -192,7 +190,7 @@ function draw() {
 }
 
 function genDroplet(){
-  droplets.push(new Droplet(random(0, width), -10, random(1,3), 1));
+  droplets.push(new Droplet(random(0, width), -10, random(1,3), 0.7));
 }
 function genPerson(){
   ppl.push(new Person(random(0, width), random(20, 40), Math.floor(random(300, 10000)), random(10, 200)));
