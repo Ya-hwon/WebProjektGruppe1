@@ -12,7 +12,10 @@ include('./header.php');
 	Ein paar Stunden im Monat reichen oft aus, um einem altersgebrechlichen oder behinderten Menschen in der Regelung seiner Angelegenheiten zur Seite zu stehen.<br/><br/>
 	Als ehrenamtlicher Betreuer erhalten Sie umfassende Beratung, Einführung und Schulung. Außerdem sind Sie haftpflicht- und unfallversichert und bekommen Ihre Aufwendungen ersetzt.<br/><br/>
 	Fordern Sie unverbindlich Informationen an oder vereinbaren Sie einfach einen Termin mit uns. Trauen Sie sich, Ihre Fähigkeiten für einen guten Zweck einzusetzen!<br/><br/>
-	<b><a href="src/doc/Flyer_Betreuung.pdf" download="Flyer_Betreuung.pdf">Flyer<br/><br/></a>
+	<b><a href="src/doc/Flyer_Betreuung.pdf" download="Flyer_Betreuung.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+	<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+	<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+	</svg> Flyer<br/><br/></a>
 	Ihr Ansprechpartner: Stefan Kauffmann (Geschäftsführer)<br/><br/>
 	Tel. <a href="tel:+497321/943060">07321 943060</a><br/>
 	Mail <a href="mailto:info@btv-hdh.de">info@btv-hdh.de</a><br/>
@@ -71,7 +74,10 @@ include('./header.php');
 	<hr/>
 	
 	<h3 id="Betreuungsverfahren">4. Das Betreuungsverfahren</h3>
-	<p class="betreuungcontent">Zuständig ist das Betreuungsgericht, welches entweder auf <a href="src/doc/Anregung_Betreuung.pdf" download>Antrag</a> des Betroffenen oder auf Anregung Dritter die Notwendigkeit einer Betreuungsmaßnahme überprüft. 
+	<p class="betreuungcontent">Zuständig ist das Betreuungsgericht, welches entweder auf <a href="src/doc/Anregung_Betreuung.pdf" download><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+	<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+	<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+	</svg> Antrag</a> des Betroffenen oder auf Anregung Dritter die Notwendigkeit einer Betreuungsmaßnahme überprüft. 
 	Dies ist in der Regel das Amtsgericht, in dessen Bezirk der Betroffene seinen gewöhnlichen Aufenthalt hat.<br/><br/>
 	Das gerichtliche Verfahren sieht die Einholung eines nervenärztlichen Gutachtens vor (ersatzweise kann das Pflegegutachten des Medizinischen Dienstes herangezogen werden), 
 	die persönliche Anhörung der betroffenen Person durch das Betreuungsgericht und in besonderen Fällen die Einbeziehung eines sog. Verfahrenspflegers.
@@ -165,7 +171,10 @@ include('./header.php');
 	<p class="betreuungcontent">Neben dem Betreuungsverein berät die <a href="https://www.landkreis-heidenheim.de/Landratsamt/StabsbereicheStabsstelle/Kommunalaufsicht/Betreuungsbehoerde/index.htm" target="_blank">Betreuungsbehörde des Landratsamts Heidenheim</a> in allen Fragen zum Betreuungsrecht.<br/><br/>
 	Das <a href="https://amtsgericht-heidenheim.justiz-bw.de/pb/,Lde/Startseite/Amtsgericht/Abteilungen+_+Serviceeinheiten" target="_blank">Betreuungsgericht beim Amtsgericht Heidenheim</a> entscheidet über die Umfang und die Aufhebung einer Betreuung sowie über die Auswahl und Bestellung des Betreuers. 
 	Das Betreuungsgericht berät und beaufsichtigt die Betreuer bei der Betreuungsführung.<br/><br/>
-	Wichtige Kontaktadressen für den Landkreis Heidenheim finden sich auch in der Broschüre <a href="src/doc/Broschuere_Vorsorge.pdf" download="Broschuere_Vorsorge.pdf">„Rechtzeitig vorsorgen für Alter, Krankheit und Unfall“</a>.
+	Wichtige Kontaktadressen für den Landkreis Heidenheim finden sich auch in der Broschüre <a href="src/doc/Broschuere_Vorsorge.pdf" download="Broschuere_Vorsorge.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+	<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+	<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+	</svg> „Rechtzeitig vorsorgen für Alter, Krankheit und Unfall“</a>.
 	</p>
 	<hr/>
 
