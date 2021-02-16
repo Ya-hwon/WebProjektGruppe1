@@ -114,7 +114,7 @@ include('./header.php');
 	<ul>
 	<li><p>Verwandte</p></li>
 	<li><p>Sonstige Ehrenamtliche</p></li>
-	<li><p>Berufsbetreuer (entweder freiberufliche Betreuer oder hauptamtliche Mitarbeitereines Betreuungsvereins)</p></li>
+	<li><p>Berufsbetreuer (entweder freiberufliche Betreuer oder hauptamtliche Mitarbeiter eines Betreuungsvereins)</p></li>
 	<li><p>Örtliche Betreuungsbehörde, falls sonst niemand zur Verfügung steht.</p></li>
 	</ul>
 	</div>
