@@ -66,7 +66,7 @@
       </div>
    </section>
    <section class="section-news">
-      <h2>Wir sind Mitglied bei</h2>
+      <h2>Neuigkeiten</h2>
       <?php
         readFromCSV("aktuelles.csv",'newsHandler');
       ?>
