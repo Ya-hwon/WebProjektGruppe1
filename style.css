@@ -1,5 +1,6 @@
-html{
-     font-family: 'Roboto', sans-serif;
+body{
+    /* Override Bootstrap Button font */
+     font-family: 'Roboto', sans-serif !important;
 }
  main {
      margin: 20px;
@@ -20,15 +21,11 @@ html{
 }
  h3 {
      color: #2B4987;
-     font-size: 25px;
-}
- h4 {
-     color: #2B4987;
      font-size: 20px;
 }
- h5 {
-    color: white;
-    font-size: 20px;
+ h4 {
+     color: white;
+     font-size: 20px;
 }
  p {
      font-size: 16px;
@@ -279,12 +276,9 @@ footer {
          font-size: 30px;
     }
      h3 {
-         font-size: 25px;
-    }
-     h4 {
          font-size: 20px;
     }
-     h5 {
+     h4 {
          font-size: 20px;
     }
      p {
@@ -300,12 +294,9 @@ footer {
          font-size: 32px;
     }
      h3 {
-         font-size: 27px;
-    }
-     h4 {
          font-size: 22px;
     }
-     h5 {
+     h4 {
          font-size: 22px;
     }
      p {
@@ -342,12 +333,9 @@ footer {
          font-size: 35px;
     }
      h3 {
-         font-size: 30px;
-    }
-     h4 {
          font-size: 25px;
     }
-     h5 {
+     h4 {
          font-size: 25px;
     }
      p {
@@ -364,12 +352,9 @@ footer {
          font-size: 35px;
     }
      h3 {
-         font-size: 30px;
-    }
-     h4 {
          font-size: 25px;
     }
-     h5 {
+     h4 {
          font-size: 25px;
     }
      p {

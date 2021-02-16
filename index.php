@@ -20,7 +20,7 @@
     echo '<div class="event-wrapper">
        <div class="event-wrapper--short">
           <p>'.substr($data[1],0,5).'</p>
-          <img src="./src/icon/calendar.svg"/>
+          <img src="./src/icon/calendar.svg" alt="Icon eines Kalenderblatts"/>
        </div>
        <div class="event-wrapper--detail">
           <h3>'.$data[0].'</h3>

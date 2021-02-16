@@ -19,7 +19,7 @@ function mitarbeiterHandler($num, $row, $data){
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h4 class="card-title">'.$data[0].'</h4>
+              <h3 class="card-title">'.$data[0].'</h3>
               <p class="card-subtitle">'.$data[1].'</p>
               <p class="card-text">
                 Tel.: '.$data[5].'<br/>

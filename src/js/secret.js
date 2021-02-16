@@ -19,7 +19,6 @@ $(window).resize(function(){
   $('footer').css('margin-top',''+($(window).height()*0.6)+'px');
   console.log("resize");
 });
-
 var canvas;
 
 var roundActive = false;
