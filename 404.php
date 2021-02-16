@@ -1,4 +1,9 @@
 <?php
+  include('./head.php');
+?>
+</head>
+
+<?php
 include('./header.php');
 
 $records = file('./src/doc/highscores.txt', FILE_IGNORE_NEW_LINES);

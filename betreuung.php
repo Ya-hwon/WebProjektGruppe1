@@ -1,8 +1,13 @@
 <?php
-include('./header.php');
+  include('./head.php');
 ?>
 
 <link rel="stylesheet" href="src/css/betreuung.css">
+</head>
+
+<?php
+include('./header.php');
+?>
 
 
 <main>

@@ -1,8 +1,14 @@
 <?php
+  include('./head.php');
+?>
+<link rel="stylesheet" href="/src/css/kontakt.css">
+</head>
+
+<?php
 include('./header.php');
 ?>
 
-<link rel="stylesheet" href="/src/css/kontakt.css">
+
 
 <?php
 if(!empty($_POST["send"])) {
