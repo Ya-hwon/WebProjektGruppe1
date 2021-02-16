@@ -1,4 +1,9 @@
 <?php
+  include('./head.php');
+?>
+</head>
+
+<?php
 session_start();
 if(isset($_SESSION['login'])) {
   header('LOCATION:admin'); die();

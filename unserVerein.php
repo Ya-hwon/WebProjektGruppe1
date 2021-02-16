@@ -1,4 +1,10 @@
 <?php
+  include('./head.php');
+?>
+<link rel="stylesheet" href="src/css/unserverein.css">
+</head>
+
+<?php
 include('src/php/read.php');
 include('./header.php');
 function mitarbeiterHandler($num, $row, $data){
@@ -25,8 +31,6 @@ function mitarbeiterHandler($num, $row, $data){
       </div>';
 }
 ?>
-
-<link rel="stylesheet" href="src/css/unserverein.css">
 
 <main>
 <h2 id="Mitarbeiter">Mitarbeiter</h2>

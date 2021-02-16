@@ -1,6 +1,11 @@
 <?php
-  include('src/php/read.php');
+  include('./head.php');
+?>
+<link rel="stylesheet" href="src/css/index.css">
+</head>
+<?php
   include('./header.php');
+  include('src/php/read.php');
   function newsHandler($num, $row, $data){
     if($num<>4||$row==1)return;
     echo '<div class="news-wrapper">
@@ -28,7 +33,6 @@
   }
 
 ?>
-<link rel="stylesheet" href="src/css/index.css">
 <main>
    <div class="container-hero">
       <div class="container-hero-inner">

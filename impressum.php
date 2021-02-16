@@ -1,8 +1,13 @@
 <?php
+  include('./head.php');
+?>
+<link rel="stylesheet" href="/src/css/impressum.css">
+</head>
+
+<?php
 include('./header.php');
 ?>
 
-<link rel="stylesheet" href="/src/css/impressum.css">
 
 <main>
     <h2>Impressum</h2>

@@ -1,9 +1,14 @@
 <?php
+  include('./head.php');
+?>
+<link rel="stylesheet" href="src/css/vorsorge.css">
+</head>
+
+<?php
     include('./header.php');
 ?>
 
-<link rel="stylesheet" href="src/css/vorsorge.css">
-<link rel="stylesheet" href="style.css">
+
 
 
 
