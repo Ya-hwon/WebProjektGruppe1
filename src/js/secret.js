@@ -1,7 +1,7 @@
 function setup() {
-    canvas = createCanvas(windowWidth*0.8, windowHeight*0.5);
+    canvas = createCanvas($(window).width()*0.8, $(window).height()*0.5);
     canvas.center('horizontal');
-    $('footer').css('margin-top',''+(windowHeight*0.6)+'px');
+    $('footer').css('margin-top',''+($(window).height()*0.6)+'px');
     canvas.canvas.style.display = "none";
     frameRate(60);
     textSize(32);
@@ -10,7 +10,15 @@ function activate(){
   canvas.canvas.style.display = "block";
   restart();
   roundActive=true;
+
+
 }
+$(window).resize(function(){
+  resizeCanvas($(window).width()*0.8, $(window).height()*0.5);
+  canvas.center('horizontal');
+  $('footer').css('margin-top',''+($(window).height()*0.6)+'px');
+  console.log("resize");
+});
 
 var canvas;
 
@@ -185,7 +193,7 @@ function draw() {
   }else{
     fill('red');
     textAlign(CENTER);
-    text(("GAME OVER\nYour score: "+Math.floor(points)+"\nHighscores:\n"+records+'\nYour name: '+name).replaceAll(',','\n'), width/2, height/4);
+    text(("GAME OVER\nYour score: "+Math.floor(points)+"\nHighscores:\n"+records+'\nYour name: '+name).replaceAll(',','\n'), width/2, 0);
   }
 }
 
