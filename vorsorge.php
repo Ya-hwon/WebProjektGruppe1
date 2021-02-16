@@ -8,10 +8,6 @@
     include('./header.php');
 ?>
 
-
-
-
-
 <main>
 <h2>Inhaltsverzeichnis</h2>
 <ul class="list-unstyled center directory">
@@ -22,7 +18,7 @@
     <li><a href="#Links">5. Links</a></li>
 </ul>
 
-<h3 id="Vorsorgevollmacht">1. Vorsorgevollmacht</h3>
+<h2 id="Vorsorgevollmacht">1. Vorsorgevollmacht</h2>
 <p class="vorsorgecontent">Solange Sie noch geschäftsfähig sind, haben Sie jederzeit die Möglichkeit selbst zu bestimmen, wer Ihre 
 Angelegenheiten regeln soll, falls Sie hierzu gesundheitlich nicht mehr in der Lage sein sollten. Durch eine 
 <b>Vorsorgevollmacht</b> können Sie eine oder mehrere Personen, denen Sie uneingeschränkt vertrauen, mit Ihrer rechtlichen 
@@ -53,7 +49,7 @@ sicher aufbewahrte Vorsorgevollmacht schützt vor Missbrauch, eine unauffindbare
 wirksam werden.<br/><br/> Es besteht auch die Möglichkeit der Hinterlegung bei Vertrauenspersonen (z.B. Rechtsanwalt, Notar).<br/> 
 Falls Sie eine Vorsorgevollmacht erteilen, sollten Sie den Bevollmächtigten auch davon in Kenntnis setzen.<br/>  
 Beim Zentralen Vorsorgeregister der Bundesnotarkammer, Postfach 08 01 51 in 10001 Berlin, Internetadresse:  
-<a target="_blanc" href="https://www.vorsorgeregister.de/">www.vorsorgeregister.de</a></div>, können Sie Ihre Vorsorgevollmacht gegen eine Gebühr (ab 13 €) registrieren lassen. 
+<a target="_blanc" href="https://www.vorsorgeregister.de/">www.vorsorgeregister.de</a>, können Sie Ihre Vorsorgevollmacht gegen eine Gebühr (ab 13 €) registrieren lassen. 
 In einem Betreuerbestellungsverfahren wird vom Betreuungsgericht stets im Vorsorgeregister abgefragt, ob bereits 
 eine Vorsorgevollmacht erteilt wurde.<br/><br/>
 Der <b>Widerruf</b> einer erteilten Vorsorgevollmacht ist jederzeit möglich, so lange Sie noch geschäftsfähig sind.<br/>
@@ -81,7 +77,7 @@ Durch die Erteilung einer umfassenden Vorsorgevollmacht können Sie vermeiden, d
 ein Betreuer bestellt werden muss.<br/>
 </p>
 
-<h3 id="Betreuungsverfügung">2. Betreuungsvollmacht</h3>
+<h2 id="Betreuungsverfügung">2. Betreuungsvollmacht</h2>
 <p class="vorsorgecontent">
 Wenn Sie keine Vorsorgevollmacht erteilt haben und Ihre Angelegenheiten nicht mehr regeln können, muss für Sie 
 ein <b>gesetzlicher Betreuer</b> bestellt werden. Durch eine <b>Betreuungsverfügung</b> können Sie Ihre Vorstellungen 
@@ -100,7 +96,7 @@ vereinbaren. Auch die Betreuungsverfügung können Sie beim Zentralen Vorsorgere
 eine Gebühr registrieren lassen (Anschrift siehe unter Vollmacht).<br/>
 </p>
 
-<h3 id="Patientenverfügung">3. Patientenverfügung</h3>
+<h2 id="Patientenverfügung">3. Patientenverfügung</h2>
 <p class="vorsorgecontent">Grundsätzlich ist für jede ärztliche Behandlung die <b>Zustimmung des Betroffenen</b> erforderlich.<br/>
 Für den Fall, dass Sie über eine vom Arzt angebotene Behandlung krankheitsbedingt nicht mehr entscheiden können, 
 ist es Ihnen als Erwachsener heute schon möglich, Ihre Behandlungswünsche vorsorglich in einer Patientenverfügung 
@@ -113,25 +109,25 @@ Betreuer und Bevollmächtigte an Ihre Willensbestimmung in Form einer Patientenv
 Aufgabe ist es auf der Grundlage der Patientenverfügung Ihren Behandlungswillen festzustellen und ihm Ausdruck 
 und Geltung zu verschaffen. Können sich Arzt und Betreuer oder Bevollmächtigte über den Patientenwillen nicht 
 einigen, muss deren Entscheidung vom Betreuungsgericht genehmigt werden.<br/></p>
-<h4>Form, Inhalt und Verwahrung einer Patientenverfügung</h4>
+<h3>Form, Inhalt und Verwahrung einer Patientenverfügung</h3>
 <div class="vorsorgecontent">
 <ul>
 	<li><p>Eine Patientenverfügung muss schriftlich verfasst und vom Aussteller eigenhändig durch Namensunterschrift oder durch ein notariell beglaubigtes Handzeichen unterzeichnet sein.<br/></p></li>
 	<li><p>Die Festlegungen über die künftige ärztliche Behandlung in einer Patientenverfügung sollten sich auf die zu erwartende Behandlungssituation beziehen, beispielsweise einen Komazustand oder eine unheilbare Krebserkrankung.<br/></p></li>
 	<li><p>Sie sollten so konkret wie möglich bestimmen, wie Sie in diesen Situationen ärztlich behandelt werden wollen. Beispielsweise können Sie Schmerztherapie, künstliche Ernährung oder Beatmung, Flüssigkeitszufuhr usw. wünschen oder ablehnen.<br/></p></li>
 	<li><p>Patientenverfügungen können jederzeit formlos widerrufen oder geändert werden, insofern der Verfügende noch geistig in der Lage ist, über ärztliche Behandlungsmaßnahmen zu entscheiden. Es ist empfehlenswert, eine Patientenverfügung in bestimmten Zeitabständen (z.B. jährlich) zu erneuern oder zu bestätigen. So kann man im eigenen Interesse regelmäßig überprüfen, ob die einmal getroffenen Festlegungen noch gelten oder eventuell konkretisiert oder abgeändert werden sollten.<br/></p></li>
-    <li><p>Eine Patientenverfügung sollte so verwahrt werden, dass insbesondere Ihr Arzt, Ihr Bevollmächtigter oder Ihr Betreuer möglichst schnell Kenntnis von der Existenz und vom Hinterlegungsort erlangen können. Es ist sinnvoll, einen Hinweis bei sich zu tragen, wo die Patientenverfügung aufbewahrt wird. Bei Aufnahme in ein Krankenhaus oder Pflegeheim sollten Sie auf Ihre Patientenverfügung hinweisen.<br/></p><br/></p></li>
+    <li><p>Eine Patientenverfügung sollte so verwahrt werden, dass insbesondere Ihr Arzt, Ihr Bevollmächtigter oder Ihr Betreuer möglichst schnell Kenntnis von der Existenz und vom Hinterlegungsort erlangen können. Es ist sinnvoll, einen Hinweis bei sich zu tragen, wo die Patientenverfügung aufbewahrt wird. Bei Aufnahme in ein Krankenhaus oder Pflegeheim sollten Sie auf Ihre Patientenverfügung hinweisen.<br/></p><br/></li>
 </ul>
 </div>
 
-<h4>Hilfen bei der Erstellung einer Patientenverfügung</h4>
+<h3>Hilfen bei der Erstellung einer Patientenverfügung</h3>
 <p class="vorsorgecontent">
 Am besten lassen Sie sich von Ihrem Arzt beraten, bevor Sie eine schriftliche Patientenverfügung abfassen. 
 Eine fachkundige Beratung kann Ihnen helfen, Widersprüche zwischen einzelnen Festlegungen zu vermeiden. Das 
 Klinikum Heidenheim bietet auch regelmäßig Informationsveranstaltungen an.<br/>
 </p>
 
-<h3 id="Formulare">4. Formulare</h3>
+<h2 id="Formulare">4. Formulare</h2>
 <div class="documents center">
 <a class="download" href="src/doc/Verfuegung_Betreuung.pdf" download="Verfuegung_Betreuung.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
 <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
@@ -144,22 +140,22 @@ Klinikum Heidenheim bietet auch regelmäßig Informationsveranstaltungen an.<br/
 <a class="download" href="src/doc/Vorsorgevollmacht.pdf" download="Vorsorgevollmacht.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
 <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
 <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-</svg> Vorsorgevollmacht.pdf</br></a>
+</svg> Vorsorgevollmacht.pdf<br/></a>
 <a class="download" href="src/doc/Patientenverfuegung_Vorsorge.pdf" download="Patientenverfuegung_Vorsorge.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
 <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
 <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-</svg> Patientenverfuegung.doc</br></a>
+</svg> Patientenverfuegung.doc<br/></a>
 <a class="download" href="src/doc/Broschuere_Vorsorge.pdf" download="Broschuere_Vorsorge.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
 <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
 <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-</svg> Broschuere_Vorsorge.pdf</br></a>
+</svg> Broschuere_Vorsorge.pdf<br/></a>
 <a class="download" href="src/doc/Broschuere_Vorsorge.DOCX" download="Broschuere_Vorsorge.DOCX"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
 <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
 <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-</svg> Broschuere_Vorsorge.DOCX</a></p>
+</svg> Broschuere_Vorsorge.DOCX<br/></a>
 </div>
 
-<h3 id="Links">5. Links</h3>
+<h2 id="Links">5. Links</h2>
 <p class="vorsorgecontent">Weitere Vordrucke einer Patientenverfügung erhalten Sie auch kostenlos als Download im Internet, z.B. von dem Bayerischen Staatsministerium der Justiz: 
 </p>
 <div class="documents center">
