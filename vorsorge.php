@@ -163,7 +163,7 @@ Klinikum Heidenheim bietet auch regelmäßig Informationsveranstaltungen an.<br/
 <p class="vorsorgecontent">Weitere Vordrucke einer Patientenverfügung erhalten Sie auch kostenlos als Download im Internet, z.B. von dem Bayerischen Staatsministerium der Justiz: 
 </p>
 <div class="documents center">
-<a href="https://www.justiz.bayern.de/">https://www.justiz.bayern.de/<br/></a>
+<a target="_blanc" href="https://www.justiz.bayern.de/">https://www.justiz.bayern.de/<br/></a>
 </div>
 
 </main>
