@@ -37,7 +37,7 @@
             <span></span>
             <span></span>
         </button>
-        <div class="site-branding--logo">
+        <div href="./index.php" class="site-branding--logo">
             <img src="src/img/logo_white.png" alt="Logo des Betreuungsverein Heidenheim e.V." />
         </div>
 

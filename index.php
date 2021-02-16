@@ -42,7 +42,7 @@
          <img class="card-img-top" src="./src/img/unserVerein.jpg" alt="Card image cap">
          <div class="card-body">
             <h2 class="card-title">Unser Verein</h2>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">Hier erfahren Sie mehr über uns oder können unserem Verein beitreten</p>
             <a href="./unserVerein" class="btn btn-primary">Mehr erfahren</a>
          </div>
       </div>
@@ -51,32 +51,47 @@
          <img class="card-img-top" src="./src/img/betreuung.jpg" alt="Card image cap">
          <div class="card-body">
             <h2 class="card-title">Betreuung</h2>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">Hier erhalten Sie Informationen rund um das Thema Betreuung</p>
             <a href="./betreuung" class="btn btn-primary">Mehr erfahren</a>
          </div>
       </div>
        
-             <div class="card">
+    <div class="card">
          <img class="card-img-top" src="./src/img/vorsorge.jpg" alt="Card image cap">
          <div class="card-body">
             <h2 class="card-title">Vorsorge</h2>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">Sie möchten selbstbestimmt vorsorgen ? Hier erhalten Sie mehr Informationen zum Thema Vorsorge</p>
             <a href="./vorsorge" class="btn btn-primary">Mehr erfahren</a>
          </div>
       </div>
    </section>
    <section class="section-news">
-      <h2>Aktuelle Informationen</h2>
+      <h2>Wir sind Mitglied bei</h2>
       <?php
         readFromCSV("aktuelles.csv",'newsHandler');
       ?>
    </section>
    <section>
-      <h2>Veranstaltungskalender</h2>
+      <h2>Veranstaltungen</h2>
       <?php
         readFromCSV("termine.csv",'eventHandler')
       ?>
    </section>
+    <section class="section-memberships">
+        <h2>Unsere Mitgliedschaften</h2>
+        <div class="section--inner">
+            <a href="https://www.igbetreuungsvereine-bw.de/" target="_blank"><img src="./src/img/IG_Betreuungsvereine_Logo.jpg"  alt="Logo der IG Betreuungsvereine in Baden Wuettemberg"></a>
+            <a href="https://www.diakonie-wuerttemberg.de/" target="_blank"><img src="./src/img/Diakonie_Wuerttemberg_Logo.jpg" alt="Logo der Diakonie Baden Wuettemberg"></a>
+        </div>
+
+    </section>
+    <section class="section-support">
+        <h2>Wir werden gefördert durch</h2>
+        <div class="section--inner">
+           <a href="https://www.landkreis-heidenheim.de/" target="_blank"> <img src="./src/img/lrahdh_logo.png"  alt="Logo des Landratsamt Heidenheim"></a>
+            <a href="https://sozialministerium.baden-wuerttemberg.de/de/startseite/" target="_blank"><img src="./src/img/logo-bawue.png"  alt="Logo des Sozialministeriums Baden Wuerttemberg"></a>
+        </div>
+    </section>
 </main>
 <?php
    include('./footer.php');
