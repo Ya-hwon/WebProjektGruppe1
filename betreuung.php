@@ -110,13 +110,13 @@ include('./header.php');
 	Die Betreuung soll vorrangig durch Ehrenamtliche (Angehörige oder sonstige Ehrenamtliche) übernommen werden. Eine besondere Qualifikation ist nicht erforderlich. Berufsbetreuer dürfen nur ausnahmsweise eingesetzt werden.
 	Eine gesetzliche Verpflichtung zur Betreuungsübernahme gibt es nicht, auch nicht für Familienangehörige.<br/><br/>
 	Bei der Betreuerauswahl ist es eine gewisse Reihenfolge zu beachten:<br/>
-	Die Person, die sich der Betroffene wünscht
+	Die Person, die sich der Betroffene wünscht</p>
 	<ul>
 	<li><p>Verwandte</p></li>
 	<li><p>Sonstige Ehrenamtliche</p></li>
 	<li><p>Berufsbetreuer (entweder freiberufliche Betreuer oder hauptamtliche Mitarbeitereines Betreuungsvereins)</p></li>
 	<li><p>Örtliche Betreuungsbehörde, falls sonst niemand zur Verfügung steht.</p></li>
-	</ul></p>
+	</ul>
 	</div>
 	<hr/>
 	
