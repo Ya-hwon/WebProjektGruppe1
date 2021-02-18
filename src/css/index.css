@@ -40,12 +40,14 @@ h2 {
 	line-height: 1;
 }
 
-.container-hero button {
+.container-hero .btn-primary{
 	height: 60px;
 	width: 240px;
 	border-radius: 10px;
 	font-size: 20px;
     transition: 0.3s linear;
+    line-height: 20px;
+    padding-top: 12px;
 }
 
 section {
