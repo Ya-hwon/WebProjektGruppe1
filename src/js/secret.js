@@ -11,6 +11,8 @@ function activate(){
   restart();
   roundActive=true;
 
+  //Hide IMG
+    $("#error-img").hide();
 
 }
 $(window).resize(function(){
