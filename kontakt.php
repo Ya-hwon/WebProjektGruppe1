@@ -32,19 +32,19 @@ if(!empty($_POST["send"])) {
 <main>
 <div id="maindiv">
     <h2>Kontakt</h2><br/>
-    <form action="" enctype="multipart/form-data" method="post">
+    <form enctype="multipart/form-data" method="post">
 
       <div class="mb-3">
         <div><label class="form-label" for="fname">Name*:</label></div>
-        <div><input class="form-control" id="fname" name="fname" type="text" required></input></div>
+        <div><input class="form-control" id="fname" name="fname" type="text" required></div>
       </div>
       <div class="mb-3">
         <div><label class="form-label" for="femail">Email*:</label></div>
-        <div><input class="form-control" id="femail" name="femail" type="email" required></input></div>
+        <div><input class="form-control" id="femail" name="femail" type="email" required></div>
       </div>
       <div class="mb-3">
         <div><label class="form-label" for="ftel">Telefonnummer:</label></div>
-        <div><input class="form-control" id="ftel" name="ftel" pattern="^([+](\d{1,3})\s?)?((\(\d{3,5}\)|\d{3,5})(\s)?)\d{3,8}$" type="tel"></input></div>
+        <div><input class="form-control" id="ftel" name="ftel" pattern="^([+](\d{1,3})\s?)?((\(\d{3,5}\)|\d{3,5})(\s)?)\d{3,8}$" type="tel"></div>
       </div>
       <div class="mb-3">
         <div><label class="form-label" for="fmsg">Nachricht*:</label></div>
