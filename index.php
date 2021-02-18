@@ -12,7 +12,7 @@
        <h3>'.$data[0].'</h3>
        <p>'.$data[1].'</p>'.
        (empty($data[2])?'':
-       '<button href="'.$data[2].'" class="btn btn-primary">'.$data[3].'</button>')
+       '<a class="btn btn-primary" href="'.$data[2].'">'.$data[3].'</a>')
     .'</div>';
   }
   function eventHandler($num, $row, $data){
@@ -27,7 +27,7 @@
           <p>'.$data[1].'</p>
           <p>'.$data[2].'</p>'.
           (empty($data[3])?'':
-          '<button href="'.$data[3].'" class="btn btn-primary">'.$data[4].'</button>')
+          '<a class="btn btn-primary" href="'.$data[3].'">'.$data[4].'</a>')
        .'</div>
     </div>';
   }
@@ -38,30 +38,30 @@
       <div class="container-hero-inner">
          <p class="container-hero--callout__first">Wir lassen Sie nicht <br/> im Regen stehen</p>
          <p class="container-hero--callout__second">Bei uns finden Sie Hilfe zur rechtliche Betreuung und Vorsorge</p>
-         <button class="btn-primary">Zu unseren Angeboten</button>
+         <a class="btn btn-primary" href="./betreuung">Zu unseren Angeboten</a>
       </div>
    </div>
    <section class="section-cards">
       <div class="card">
-         <img class="card-img-top" src="./src/img/unserVerein.jpg" alt="Card image cap">
+         <img class="card-img-top" src="./src/img/unserVerein.jpg" alt="Bild einer Vereinsversammlung des BTV Heidenheim">
          <div class="card-body">
             <h2 class="card-title">Unser Verein</h2>
             <p class="card-text">Hier erfahren Sie mehr über uns oder können unserem Verein beitreten</p>
             <a href="./unserVerein" class="btn btn-primary">Mehr erfahren</a>
          </div>
       </div>
-       
+
        <div class="card">
-         <img class="card-img-top" src="./src/img/betreuung.jpg" alt="Card image cap">
+         <img class="card-img-top" src="./src/img/betreuung.jpg" alt="Zwei Menschen auf einem Bild das Pflege symbolisieren soll">
          <div class="card-body">
             <h2 class="card-title">Betreuung</h2>
             <p class="card-text">Hier erhalten Sie Informationen rund um das Thema Betreuung</p>
             <a href="./betreuung" class="btn btn-primary">Mehr erfahren</a>
          </div>
       </div>
-       
+
     <div class="card">
-         <img class="card-img-top" src="./src/img/vorsorge.jpg" alt="Card image cap">
+         <img class="card-img-top" src="./src/img/vorsorge.jpg" alt="Eine Hand eines älteren Menschen unterschreibt einen Vertrag">
          <div class="card-body">
             <h2 class="card-title">Vorsorge</h2>
             <p class="card-text">Sie möchten selbstbestimmt vorsorgen ? Hier erhalten Sie mehr Informationen zum Thema Vorsorge</p>

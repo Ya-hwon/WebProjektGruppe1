@@ -24,7 +24,7 @@ function mitarbeiterHandler($num, $row, $data){
               <p class="card-text">
                 Tel.: '.$data[5].'<br/>
                 Fax: '.$data[6].'</p>
-                <a href="mailto:'.$data[4].'"><button type="button" class="btn btn-primary">Email</button></a>
+                <a class="btn btn-primary" href="mailto:'.$data[4].'">Email</a>
             </div>
           </div>
         </div>
@@ -65,14 +65,14 @@ function mitarbeiterHandler($num, $row, $data){
 <p><b>Möchten Sie Mitglied werden oder uns durch Ihre Spende unterstützen?</b><br/>
 Auch ohne Übernahme einer ehrenamtlichen Betreuung können Sie unsere Arbeit durch Ihre Mitgliedschaft oder eine Spende unterstützen. Die Mitgliedschaft ist kostenlos.</p>
 <div class="button-mitglied-wrapper">
-    <a href="./kontakt"><button type="button" class="btn btn-primary">Mitglied werden</button></a>
-    <a href="https://www.betterplace.org/de/projects/16164-qualifizierung-ehrenamtlicher-betreuerinnen-und-betreuer" target="_blank"><button type="button" class="btn btn-primary spenden-button">Spenden</button></a>
+    <a class="btn btn-primary" href="./kontakt">Mitglied werden</a>
+    <a class="btn btn-primary spenden-button" href="https://www.betterplace.org/de/projects/16164-qualifizierung-ehrenamtlicher-betreuerinnen-und-betreuer">Spenden</a>
 </div>
 
 <h2 id="Mitarbeit">Mitarbeit</h2>
 <p><b>Sie können es sich vorstellen, ehrenamtlicher Betreuer zu werden?</b><br/>Mit einem Klick auf den folgenden Button können Sie sich weiter über die ehrenamtliche Betreuung informieren.</p>
 <div class="button-mitglied-wrapper">
-    <a href="./kontakt"><button type="button" class="btn btn-primary">Betreuer werden</button></a>
+    <a class="btn btn-primary" href="./kontakt">Betreuer werden</a>
 </div>
 
 <h2>Satzung</h2>
