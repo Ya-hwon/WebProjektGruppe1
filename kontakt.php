@@ -54,7 +54,7 @@ if(!empty($_POST["send"])) {
       <!--div class="g-recaptcha" data-sitekey="WEBSITEKEYHERE" data-theme="light" data-size="normal" data-image="image"></div>
       <script src="https://www.google.com/recaptcha/api.js" async defer></script-->
       <!-- needs to be setup, doesnt make sense for testing, alternate sources for captchas are possible ofc -->
-			<div><input type="checkbox" value= required>Ich stimme zu, dass meine Angaben aus dem Kontaktformular zur Beantwortung meiner Anfrage erhoben und verarbeitet werden. Detaillierte Informationen zum Umgang mit Nutzerdaten finden Sie in unserer <a href="datenschutz">Datenschutzerklärung</a>./></div>
+			<div><input type="checkbox" value= required>Ich stimme zu, dass meine Angaben aus dem Kontaktformular zur Beantwortung meiner Anfrage erhoben und verarbeitet werden. Detaillierte Informationen zum Umgang mit Nutzerdaten finden Sie in unserer <a href="datenschutz">Datenschutzerklärung</a></div>
       <div><input type="submit" class="btn btn-primary" name="send" value="Abschicken" /></div>
 
       <div id="statusMessage">
