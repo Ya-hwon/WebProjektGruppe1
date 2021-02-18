@@ -31,7 +31,7 @@ if(!empty($_POST["hs"])){
 <script src="src/js/secret.js"></script>
 <main>
     <h2>Seite nicht gefunden - filler</h2>
-    <script type="text/javascript">
+    <script>
     var records = <?php echo json_encode($records)?>;
     var count = 0;
     var name = "";

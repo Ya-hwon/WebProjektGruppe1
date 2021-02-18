@@ -71,7 +71,7 @@ function adminHandler($num, $row, $data){
 ?>
 <main>
 <h2>Admin Page</h2>
-<script type="text/javascript">
+<script>
   function append(index){
     $(".table")[index].tBodies[0].append($(".table")[index].tBodies[0].lastElementChild.cloneNode(true));
     $(".table")[index].tBodies[0].lastElementChild.firstElementChild.innerHTML=$(".table")[index].tBodies[0].lastElementChild.rowIndex;
