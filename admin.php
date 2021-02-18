@@ -105,7 +105,7 @@ function adminHandler($num, $row, $data){
    if(kill)return;
    var elems = new Array;
    $('.toremove').parent().remove();
-   $('th, td').each(function(index){elems.push($(this).text());});
+   $('th, td').each(function(index){elems.push($(this).html().replace(/\n/g,'<br>'));});
    $('#hiddenInput').val(JSON.stringify(elems));
    $('#hiddenForm').submit();
  })();"
