@@ -4,7 +4,7 @@
             <span></span>
             <span></span>
         </button>
-        <div href="./index.php" class="site-branding--logo">
+        <div class="site-branding--logo">
             <a href="./index"><img src="src/img/logo_white.png" alt="Logo des Betreuungsverein Heidenheim e.V." /></a>
         </div>
 
