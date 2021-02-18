@@ -24,7 +24,7 @@ include('./header.php');
   <?php if($error)echo "<div class='alert alert-danger'>Error</div>"; ?>
   <div class="container">
   <h3 class="text-center">Login</h3>
-  <form action="" method="post"><!--TODO: markup -->
+  <form method="post"><!--TODO: markup -->
     <div class="form-group">
       <label for="pwd">Password:</label>
       <input type="password" class="form-control" id="pwd" name="password" required>
