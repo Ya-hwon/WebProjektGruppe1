@@ -24,7 +24,7 @@ function mitarbeiterHandler($num, $row, $data){
               <p class="card-text">
                 Tel.: '.$data[5].'<br/>
                 Fax: '.$data[6].'</p>
-                <a href="mailto:'.$data[4].'"><button type="button" class="btn btn-primary">Email</button></a>
+                <a class="btn btn-primary" href="mailto:'.$data[4].'">Email</a>
             </div>
           </div>
         </div>

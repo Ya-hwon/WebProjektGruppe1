@@ -12,7 +12,7 @@
        <h3>'.$data[0].'</h3>
        <p>'.$data[1].'</p>'.
        (empty($data[2])?'':
-       '<a href="'.$data[2].'"><button class="btn btn-primary">'.$data[3].'</button></a>')
+       '<a class="btn btn-primary" href="'.$data[2].'">'.$data[3].'</a>')
     .'</div>';
   }
   function eventHandler($num, $row, $data){
@@ -27,7 +27,7 @@
           <p>'.$data[1].'</p>
           <p>'.$data[2].'</p>'.
           (empty($data[3])?'':
-          '<a href="'.$data[3].'"><button class="btn btn-primary">'.$data[4].'</button></a>')
+          '<a class="btn btn-primary" href="'.$data[3].'">'.$data[4].'</a>')
        .'</div>
     </div>';
   }
