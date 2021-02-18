@@ -43,7 +43,7 @@
    </div>
    <section class="section-cards">
       <div class="card">
-         <img class="card-img-top" src="./src/img/unserVerein.jpg" alt="Card image cap">
+         <img class="card-img-top" src="./src/img/unserVerein.jpg" alt="Bild einer Vereinsversammlung des BTV Heidenheim">
          <div class="card-body">
             <h2 class="card-title">Unser Verein</h2>
             <p class="card-text">Hier erfahren Sie mehr über uns oder können unserem Verein beitreten</p>
@@ -52,7 +52,7 @@
       </div>
        
        <div class="card">
-         <img class="card-img-top" src="./src/img/betreuung.jpg" alt="Card image cap">
+         <img class="card-img-top" src="./src/img/betreuung.jpg" alt="Zwei Menschen auf einem Bild das Pflege symbolisieren soll">
          <div class="card-body">
             <h2 class="card-title">Betreuung</h2>
             <p class="card-text">Hier erhalten Sie Informationen rund um das Thema Betreuung</p>
@@ -61,7 +61,7 @@
       </div>
        
     <div class="card">
-         <img class="card-img-top" src="./src/img/vorsorge.jpg" alt="Card image cap">
+         <img class="card-img-top" src="./src/img/vorsorge.jpg" alt="Eine Hand eines älteren Menschen unterschreibt einen Vertrag">
          <div class="card-body">
             <h2 class="card-title">Vorsorge</h2>
             <p class="card-text">Sie möchten selbstbestimmt vorsorgen ? Hier erhalten Sie mehr Informationen zum Thema Vorsorge</p>
