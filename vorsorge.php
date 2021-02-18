@@ -49,7 +49,7 @@ sicher aufbewahrte Vorsorgevollmacht schützt vor Missbrauch, eine unauffindbare
 wirksam werden.<br/><br/> Es besteht auch die Möglichkeit der Hinterlegung bei Vertrauenspersonen (z.B. Rechtsanwalt, Notar).<br/> 
 Falls Sie eine Vorsorgevollmacht erteilen, sollten Sie den Bevollmächtigten auch davon in Kenntnis setzen.<br/>  
 Beim Zentralen Vorsorgeregister der Bundesnotarkammer, Postfach 08 01 51 in 10001 Berlin, Internetadresse:  
-<a target="_blanc" href="https://www.vorsorgeregister.de/">www.vorsorgeregister.de</a>, können Sie Ihre Vorsorgevollmacht gegen eine Gebühr (ab 13 €) registrieren lassen. 
+<a target="_blank" href="https://www.vorsorgeregister.de/">www.vorsorgeregister.de</a>, können Sie Ihre Vorsorgevollmacht gegen eine Gebühr (ab 13 €) registrieren lassen. 
 In einem Betreuerbestellungsverfahren wird vom Betreuungsgericht stets im Vorsorgeregister abgefragt, ob bereits 
 eine Vorsorgevollmacht erteilt wurde.<br/><br/>
 Der <b>Widerruf</b> einer erteilten Vorsorgevollmacht ist jederzeit möglich, so lange Sie noch geschäftsfähig sind.<br/>
@@ -159,7 +159,7 @@ Klinikum Heidenheim bietet auch regelmäßig Informationsveranstaltungen an.<br/
 <p class="vorsorgecontent">Weitere Vordrucke einer Patientenverfügung erhalten Sie auch kostenlos als Download im Internet, z.B. von dem Bayerischen Staatsministerium der Justiz: 
 </p>
 <div class="documents center">
-<a target="_blanc" href="https://www.justiz.bayern.de/">https://www.justiz.bayern.de/<br/></a>
+<a target="_blank" href="https://www.justiz.bayern.de/">https://www.justiz.bayern.de/<br/></a>
 </div>
 
 </main>
