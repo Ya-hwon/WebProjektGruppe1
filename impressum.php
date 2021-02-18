@@ -19,7 +19,7 @@ include('./header.php');
       <br/><br/>
       Verantwortlich für den Inhalt nach &#0167; 55 Abs. 2 RStV: <a href="unserverein#stefan-kauffmann-foto.jpg" >Stefan Kauffmann</a>
       <br/><br/>
-      Postanschrift: <a href="https://maps.google.com/?q=Felsenstr. 36, 89518 Heidenheim" target="_blank">Felsenstr. 36, 89518 Heidenheim</a>
+      Postanschrift: <a href="https://www.google.com/maps?q=Felsenstr.+36,+89518+Heidenheim" target="_blank">Felsenstr. 36, 89518 Heidenheim</a>
       <br/>
       Telefonnummer: <a href="tel:89321/943060">89321/943060</a>
       <br/>
@@ -30,7 +30,6 @@ include('./header.php');
       Eingetragen im Vereinsregister des <a href="https://amtsgericht-heidenheim.justiz-bw.de/pb/,Lde/Startseite" target="_blank">Amtsgerichts Heidenheim</a>
       <br/>
       Geschäftsnummer: VR 720
-    </p>
     </p>
 </main>
 

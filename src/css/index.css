@@ -40,12 +40,14 @@ h2 {
 	line-height: 1;
 }
 
-.container-hero button {
+.container-hero .btn-primary {
 	height: 60px;
 	width: 240px;
 	border-radius: 10px;
 	font-size: 20px;
-    transition: 0.3s linear;
+	transition: 0.3s linear;
+	line-height: 20px;
+	padding-top: 18px;
 }
 
 section {
@@ -83,8 +85,8 @@ section {
 	justify-content: center;
 }
 
-.event-wrapper--short{
-    display: none;
+.event-wrapper--short {
+	display: none;
 }
 
 .event-wrapper--short p {
@@ -156,12 +158,10 @@ section {
 	.event-wrapper {
 		flex-direction: row;
 		justify-content: flex-start;
-        
 	}
-    
-    .event-wrapper--short{
-        display: block;
-    }
+	.event-wrapper--short {
+		display: block;
+	}
 	.event-wrapper--short p {
 		position: absolute;
 		margin-top: 80px;

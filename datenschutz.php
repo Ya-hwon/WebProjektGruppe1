@@ -13,7 +13,7 @@ include('./header.php');
   <h2>Datenschutzhinweise</h2><br/><br/>
   <p>Den Schutz Ihrer Daten nehmen wir sehr ernst. Selbstverständlich beachten wir alle gesetzlichen Regelungen, insbesondere das Bundesdatenschutzgesetz (BDSG) und die Europäische Datenschutzgrundverordnung (DSGVO). Niemals werden wir Ihre Daten wirtschaftlich verwerten oder gar verkaufen. Im Folgenden wollen wir den Umgang mit Ihren Daten genauer darlegen:</p><br/>
   <h3>1. Name und Kontaktdaten des für die Verarbeitung Verantwortlichen</h3>
-  <p>Verantwortlicher: Betreuungsverein Heidenheim e.V., <a href="https://maps.google.com/?q=Felsenstr. 36, 89518 Heidenheim" target="_blank">Felsenstr. 36, 89518 Heidenheim</a>
+  <p>Verantwortlicher: Betreuungsverein Heidenheim e.V., <a href="https://www.google.com/maps?q=Felsenstr.+36,+89518+Heidenheim" target="_blank" target="_blank">Felsenstr. 36, 89518 Heidenheim</a>
   <br/>E-Mail: <a href="mailto:info@btv-hdh.de">info@btv-hdh.de</a></p>
   <br/>
   <h3>2. Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck von deren Verwendung</h3>
