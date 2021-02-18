@@ -46,9 +46,8 @@ if(!empty($_POST["hs"])){
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js" integrity="sha512-b/htz6gIyFi3dwSoZ0Uv3cuv3Ony7EeKkacgrcVg8CMzu90n777qveu0PBcbZUA7TzyENGtU+qZRuFAkfqgyoQ==" crossorigin="anonymous"></script>
 <script src="src/js/secret.js"></script>
 <main>
-    <h2>ERROR 404 - Seite nicht gefunden</h2>
-    <img id="error-img" src="./src/img/404.svg" alt="Bild einer traurigen Wolke">
-    <script type="text/javascript">
+    <h2>Seite nicht gefunden - filler</h2>
+    <script>
     var records = <?php echo json_encode($records)?>;
     var count = 0;
     var name = "";

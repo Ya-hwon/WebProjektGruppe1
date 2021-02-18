@@ -18,7 +18,7 @@ if(!empty($_POST["send"])) {
 	$subject = "Kontaktaufnahme durch Formular";
 
 	$toEmail = "info@btv-hdh.de";
-	$mailHeaders = "From: " . $name . "<". $email .">\r\n";
+	$mailHeaders = "From: " . $name . "<". $email .">\r\n"."MIME-Version: 1.0\r\n"."Content-Type: text/plain; charset=utf-8";
 	if(mail($toEmail, $subject, $content, $mailHeaders)) {//throws error because there is no mailserver, should work when there is
 	    $message = "Email wurde versendet.";
 	    $type = "success";
