@@ -5,11 +5,11 @@
             <span></span>
         </button>
         <div href="./index.php" class="site-branding--logo">
-            <img src="src/img/logo_white.png" alt="Logo des Betreuungsverein Heidenheim e.V." />
+            <a href="./index"><img src="src/img/logo_white.png" alt="Logo des Betreuungsverein Heidenheim e.V." /></a>
         </div>
 
         <div class="site-branding--name">
-            <h1>Betreuungsverein Heidenheim e.V.</h1>
+            <a href="./index"><h1>Betreuungsverein Heidenheim e.V.</h1></a>
         </div>
 
         <nav id="nav" class="d-flex align-items-center">

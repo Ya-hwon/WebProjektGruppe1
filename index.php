@@ -38,7 +38,7 @@
       <div class="container-hero-inner">
          <p class="container-hero--callout__first">Wir lassen Sie nicht <br/> im Regen stehen</p>
          <p class="container-hero--callout__second">Bei uns finden Sie Hilfe zur rechtliche Betreuung und Vorsorge</p>
-         <button class="btn-primary">Zu unseren Angeboten</button>
+         <a href="./betreuung"><button class="btn-primary">Zu unseren Angeboten</button></a>
       </div>
    </div>
    <section class="section-cards">
