@@ -12,7 +12,7 @@
        <h3>'.$data[0].'</h3>
        <p>'.$data[1].'</p>'.
        (empty($data[2])?'':
-       '<button href="'.$data[2].'" class="btn btn-primary">'.$data[3].'</button>')
+       '<a href="'.$data[2].'"><button class="btn btn-primary">'.$data[3].'</button></a>')
     .'</div>';
   }
   function eventHandler($num, $row, $data){
@@ -27,7 +27,7 @@
           <p>'.$data[1].'</p>
           <p>'.$data[2].'</p>'.
           (empty($data[3])?'':
-          '<button href="'.$data[3].'" class="btn btn-primary">'.$data[4].'</button>')
+          '<a href="'.$data[3].'"><button class="btn btn-primary">'.$data[4].'</button></a>')
        .'</div>
     </div>';
   }
@@ -50,7 +50,7 @@
             <a href="./unserVerein" class="btn btn-primary">Mehr erfahren</a>
          </div>
       </div>
-       
+
        <div class="card">
          <img class="card-img-top" src="./src/img/betreuung.jpg" alt="Zwei Menschen auf einem Bild das Pflege symbolisieren soll">
          <div class="card-body">
@@ -59,7 +59,7 @@
             <a href="./betreuung" class="btn btn-primary">Mehr erfahren</a>
          </div>
       </div>
-       
+
     <div class="card">
          <img class="card-img-top" src="./src/img/vorsorge.jpg" alt="Eine Hand eines älteren Menschen unterschreibt einen Vertrag">
          <div class="card-body">
