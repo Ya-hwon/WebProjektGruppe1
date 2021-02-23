@@ -7,9 +7,6 @@
         align-items: center;
         flex-direction: column;
     }
-    img{
-        max-width: 80%;
-    }
     
     .p5Canvas{
         position: relative !important;
