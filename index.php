@@ -35,10 +35,10 @@
 ?>
 <main>
    <div class="container-hero">
-      <div class="container-hero-inner animate__animated animate__fadeInLeft">
-         <p class="container-hero--callout__first">Wir lassen Sie nicht <br/> im Regen stehen</p>
-         <p class="container-hero--callout__second">Bei uns finden Sie Hilfe zur rechtliche Betreuung und Vorsorge</p>
-         <a class="btn btn-primary" href="./betreuung">Zu unseren Angeboten</a>
+      <div class="container-hero-inner">
+         <p class="container-hero--callout__first animate__animated animate__fadeInLeft">Wir lassen Sie nicht <br/> im Regen stehen</p>
+         <p class="container-hero--callout__second  animate__animated animate__fadeInLeft">Bei uns finden Sie Hilfe zur rechtliche Betreuung und Vorsorge</p>
+         <a class="btn btn-primary  animate__animated animate__fadeInLeft" href="./betreuung">Zu unseren Angeboten</a>
       </div>
    </div>
    <section class="section-cards">
