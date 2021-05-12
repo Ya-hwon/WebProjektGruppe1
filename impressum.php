@@ -21,9 +21,9 @@ include('./header.php');
       <br/><br/>
       Postanschrift: <a href="https://www.google.com/maps?q=Felsenstr.+36,+89518+Heidenheim" target="_blank">Felsenstr. 36, 89518 Heidenheim</a>
       <br/>
-      Telefonnummer: <a href="tel:89321/943060">89321/943060</a>
+      Telefonnummer: <a href="tel:07321/963060">07321/963060</a>
       <br/>
-      Fax-Nummer: 07321/9469577
+      Fax-Nummer: 0261/2016182744
       <br/>
       Email: <a href="mailto:info@btv-hdh.de">info@btv-hdh.de</a>
       <br/><br/>
