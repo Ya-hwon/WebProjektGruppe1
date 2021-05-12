@@ -21,10 +21,6 @@ function mitarbeiterHandler($num, $row, $data){
             <div class="card-body">
               <h3 class="card-title">'.$data[0].'</h3>
               <p class="card-subtitle">'.$data[1].'</p>
-              <p class="card-text">
-                Tel.: '.$data[5].'<br/>
-                Fax: '.$data[6].'</p>
-                <a class="btn btn-primary" href="mailto:'.$data[4].'">Email</a>
             </div>
           </div>
         </div>
@@ -46,16 +42,16 @@ function mitarbeiterHandler($num, $row, $data){
 <table class="table table-bordered">
   <tbody>
     <tr>
-      <td><b>Sabine Dernai</b><br/>1. Vorsitzende</td>
+      <td><b>Iris Mack</b><br/>Schatzmeisterin</td>
+      <td><b>Josefine Bauer</b><br/>Beisitzerin</td>
+    </tr>
+    <tr>
+      <td><b>Anita Pfeiffer</b><br/>Schriftführerin</td>
       <td><b>Michael Rettenberger</b><br/>2. Vorsitzender</td>
     </tr>
     <tr>
-      <td><b>Iris Mack</b><br/>Schatzmeisterin</td>
-      <td><b>Anita Pfeiffer</b><br/>Schriftführerin</td>
-    </tr>
-    <tr>
+      <td><b>Sabine Dernai</b><br/>1. Vorsitzende</td>
       <td><b>Prof. Johannes Falterbaum</b><br/>Beisitzer</td>
-      <td><b>Josefine Bauer</b><br/>Beisitzerin</td>
     </tr>
   </tbody>
 </table>
