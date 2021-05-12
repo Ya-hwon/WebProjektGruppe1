@@ -8,8 +8,17 @@ hr{
 }
 
 h2, h3, h4, h5, h6{
-	margin-top: 40px;
+	/*margin-top: 40px;*/
     text-align:center;
+}
+
+.my-accordion{
+
+}
+
+.my-accordion-heading{
+	color: #2B4987;
+	font-size: 30px;
 }
 
 .image{
