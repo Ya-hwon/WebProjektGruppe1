@@ -8,7 +8,7 @@
 include('src/php/read.php');
 include('./header.php');
 function mitarbeiterHandler($num, $row, $data){
-  if($num<>7||$row==1)return;
+  if($num<>4||$row==1)return;
       echo '<div id="'.$data[2].'" class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
