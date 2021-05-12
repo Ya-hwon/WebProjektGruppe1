@@ -43,6 +43,13 @@
           </div>
       </div>
    </div>
+   <section>
+        <div class="container-donations">
+            <h2>Jetzt Spenden</h2>
+            <p>Hier können Sie unseren Verein durch eine Spende unterstützen</p>
+            <button class="btn btn-primary" href="https://www.betterplace.org/de/projects/16164-qualifizierung-ehrenamtlicher-betreuerinnen-und-betreuer">Spenden</button>
+       </div> 
+   </section>
    <section class="section-cards">
       <div class="card">
          <img class="card-img-top" src="./src/img/unserVerein.jpg" alt="Bild einer Vereinsversammlung des BTV Heidenheim">

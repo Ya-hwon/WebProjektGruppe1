@@ -58,6 +58,16 @@ section {
 	text-align: center;
 }
 
+.container-donations{
+    box-shadow: 0px 10px 40px 0px rgb(48 48 48 / 10%);
+    padding: 30px;
+    margin: auto;
+}
+
+.container-donations button{
+    font-size: 24px;
+}
+
 .section-cards {
 	flex-direction: row;
 	justify-content: space-around;
