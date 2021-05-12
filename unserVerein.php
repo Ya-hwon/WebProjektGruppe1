@@ -8,7 +8,7 @@
 include('src/php/read.php');
 include('./header.php');
 function mitarbeiterHandler($num, $row, $data){
-  if($num<>4||$row==1)return;
+  if($num<>7||$row==1)return;
       echo '<div id="'.$data[2].'" class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
@@ -21,6 +21,10 @@ function mitarbeiterHandler($num, $row, $data){
             <div class="card-body">
               <h3 class="card-title">'.$data[0].'</h3>
               <p class="card-subtitle">'.$data[1].'</p>
+              <p class="card-text">
+                Tel.: '.$data[5].'<br/>
+                Fax: '.$data[6].'</p>
+                <a class="btn btn-primary" href="mailto:'.$data[4].'">Email</a>
             </div>
           </div>
         </div>
