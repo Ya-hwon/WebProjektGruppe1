@@ -21,11 +21,11 @@ function mitarbeiterHandler($num, $row, $data){
             <div class="card-body">
               <h3 class="card-title">'.$data[0].'</h3>
               <p class="card-subtitle">'.$data[1].'</p>
-              <p class="card-text">
-                Tel.: '.$data[5].'<br/>
-                Fax: '.$data[6].'</p>
-                <a class="btn btn-primary" href="mailto:'.$data[4].'">Email</a>
-            </div>
+              <p class="card-text">'.
+              (empty($data[5])?'':'Tel.: '.$data[5].'<br/>').
+              (empty($data[5])?'':'Fax: '.$data[6].'</p>').
+                (empty($data[4])?'':'<a class="btn btn-primary" href="mailto:'.$data[4].'">Email</a>')
+            .'</div>
           </div>
         </div>
       </div>';
