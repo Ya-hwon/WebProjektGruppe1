@@ -13,7 +13,11 @@ h2, h3, h4, h5, h6{
 }
 
 .my-accordion{
-
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 80%;
 }
 
 .my-accordion-heading{
@@ -27,6 +31,7 @@ h2, h3, h4, h5, h6{
 	margin-right: auto;
 	width: 95%;
 	max-width: 600px;
+	margin-top: 40px;
 }
 
 .documents{
