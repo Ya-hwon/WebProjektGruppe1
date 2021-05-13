@@ -62,6 +62,7 @@ section {
     box-shadow: 0px 10px 40px 0px rgb(48 48 48 / 10%);
     padding: 30px;
     margin: auto;
+    border: 1px solid #E3E3E3;
 }
 
 .container-donations button{
@@ -77,6 +78,7 @@ section {
 .card {
 	overflow: hidden;
 	box-shadow: 0px 10px 40px 0px rgb(48 48 48 / 10%);
+    border: 1px solid #E3E3E3;
 	width: 80%;
 	margin: auto;
 	margin-top: 20px;
@@ -88,11 +90,20 @@ section {
 	object-fit: cover;
 }
 
+.news-wrapper{
+    box-shadow: 0px 10px 40px 0px rgb(48 48 48 / 10%);
+    border: 1px solid #E3E3E3;
+    padding: 10px;
+}
+
 .event-wrapper {
 	display: flex;
 	flex-direction: column;
 	margin-top: 60px;
 	justify-content: center;
+    box-shadow: 0px 10px 40px 0px rgb(48 48 48 / 10%);
+    border: 1px solid #E3E3E3;
+    padding: 10px;
 }
 
 .event-wrapper--short {
