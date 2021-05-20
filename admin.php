@@ -80,6 +80,7 @@ function adminHandler($num, $row, $data){
     $("tbody>tr>th:first-child").each(function(){$(this).text($(this).parent().index()+1);});
   }
 </script>
+<a href="./upload"><button class="btn btn-primary">Zum Upload</button></a>
 <a href="/src/php/logout.php"><button class="btn btn-primary">Logout</button></a>
 
 <h3>Termine</h3>
