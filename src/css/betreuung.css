@@ -3,12 +3,7 @@
 	margin-right: auto;
 }
 
-hr{
-	width:80%;
-}
-
 h2, h3, h4, h5, h6{
-	/*margin-top: 40px;*/
     text-align:center;
 }
 
@@ -31,7 +26,7 @@ h2, h3, h4, h5, h6{
 	margin-right: auto;
 	width: 95%;
 	max-width: 600px;
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
 .documents{
