@@ -13,7 +13,7 @@ function mitarbeiterHandler($num, $row, $data){
         <div class="row g-0">
           <div class="col-md-4">
             <img
-              src="src/img/'.$data[2].'"
+              src="src/img/upload/'.$data[2].'"
               alt="'.$data[3].'"
               class="img-fluid"/>
           </div>

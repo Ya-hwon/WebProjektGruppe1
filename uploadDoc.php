@@ -9,7 +9,7 @@ if(!isset($_SESSION['login'])) {
   header('LOCATION:adminLogin'); die();
 }
 if(!empty($_POST['delete'])){
-  unlink("src/upload/".$_POST['filename']);
+  unlink("src/doc/upload/".$_POST['filename']);
   header("Refresh:5");
 }
 
@@ -30,7 +30,7 @@ include('./header.php');
 <?php
 
 if(!empty($_FILES['uploaded_file'])){
-  $path = "src/upload/";
+  $path = "src/doc/upload/";
   $path = $path . basename( $_FILES['uploaded_file']['name']);
 
   if(move_uploaded_file($_FILES['uploaded_file']['tmp_name'], $path)) {
@@ -38,12 +38,12 @@ if(!empty($_FILES['uploaded_file'])){
   }
 }
 
-$list = array_diff(scandir("src/upload/", SCANDIR_SORT_ASCENDING), array('.', '..'));
+$list = array_diff(scandir("src/doc/upload/", SCANDIR_SORT_ASCENDING), array('.', '..'));
 
 if(!empty($list)){
-  echo '<table><tr><th>Dateiname</th><th>Löschen?</th></tr>';
+  echo '<br><br><br><table><tr><th>Dateiname</th><th>Löschen?</th></tr>';
   foreach($list as $entry){
-    echo '<tr><td onclick="navigator.clipboard.writeText(\'./src/upload/'.$entry.'\');">'.$entry.'</td><td><form method="POST"><input style="display:none" type="text" name="filename" value="'.$entry.'"><input type="submit" name="delete" class="button" value="Löschen"></input></form></td></tr>';
+    echo '<tr><td onclick="navigator.clipboard.writeText(\'./src/doc/upload/'.$entry.'\');">'.$entry.'</td><td><form method="POST"><input style="display:none" type="text" name="filename" value="'.$entry.'"><input type="submit" name="delete" class="button" value="Löschen"></input></form></td></tr>';
   }
   echo '</table>';
 }

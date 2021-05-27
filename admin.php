@@ -80,7 +80,7 @@ function adminHandler($num, $row, $data){
     $("tbody>tr>th:first-child").each(function(){$(this).text($(this).parent().index()+1);});
   }
 </script>
-<a href="./upload"><button class="btn btn-primary">Zum Upload</button></a>
+<a href="./uploadDoc"><button class="btn btn-primary">Zum Dokument Upload</button></a>
 <a href="/src/php/logout.php"><button class="btn btn-primary">Logout</button></a>
 
 <h3>Termine</h3>
@@ -95,6 +95,7 @@ function adminHandler($num, $row, $data){
 </table>
 <h3>Mitarbeiter</h3>
 <button class="btn btn-primary" onclick="append(2);">Add</button>
+<a href="./uploadPic"><button class="btn btn-primary">Zum Bilder Upload</button></a>
 <?php readFromCSV('mitarbeiter.csv','adminHandler'); ?>
 </tbody>
 </table>
