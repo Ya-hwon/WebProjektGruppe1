@@ -61,7 +61,7 @@
       </div>
 
        <div class="card">
-         <img class="card-img-top" src="./src/img/betreuung.jpg" alt="Zwei Menschen auf einem Bild das Pflege symbolisieren soll">
+         <img class="card-img-top" src="./src/img/testbild-watermark.jpg" alt="Zwei Menschen auf einem Bild das Pflege symbolisieren soll">
          <div class="card-body">
             <h2 class="card-title">Betreuung</h2>
             <p class="card-text">Hier erhalten Sie Informationen rund um das Thema Betreuung</p>
