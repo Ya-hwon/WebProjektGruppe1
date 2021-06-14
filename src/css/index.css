@@ -37,7 +37,7 @@ h2 {
 .container-hero--callout__second {
 	font-size: 24px;
 	max-width: 600px;
-	line-height: 1;
+	line-height: 1.5;
 }
 
 .container-hero .btn-primary {

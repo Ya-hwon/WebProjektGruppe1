@@ -38,7 +38,7 @@
       <div class="container-hero-inner ">
           <div class="animate__animated animate__fadeInLeft">
             <p class="container-hero--callout__first">Wir lassen Sie nicht <br/> im Regen stehen</p>
-            <p class="container-hero--callout__second">Bei uns finden Sie Informationen, Beratung und Unterstützung zur rechtlichen Betreuung, Vorsorgevollmacht und Betreuungsverfügung</p>
+            <p class="container-hero--callout__second">Bei uns finden Sie Hilfen zur Rechtlichen Beutreuung, Vorsorgevollmacht und Betreuungsverfügung</p>
             <a class="btn btn-primary" href="./betreuung">Zu unseren Angeboten</a>
           </div>
       </div>
