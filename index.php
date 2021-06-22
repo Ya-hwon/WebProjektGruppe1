@@ -38,7 +38,7 @@
       <div class="container-hero-inner ">
           <div class="animate__animated animate__fadeInLeft">
             <p class="container-hero--callout__first">Wir lassen Sie nicht <br/> im Regen stehen</p>
-            <p class="container-hero--callout__second">Bei uns finden Sie Hilfen zur Rechtlichen Beutreuung, Vorsorgevollmacht und Betreuungsverfügung</p>
+            <p class="container-hero--callout__second">Bei uns finden Sie Hilfen zur Rechtlichen Betreuung, Vorsorgevollmacht und Betreuungsverfügung</p>
             <a class="btn btn-primary" href="./betreuung">Zu unseren Angeboten</a>
           </div>
       </div>
@@ -73,7 +73,7 @@
          <img class="card-img-top" src="./src/img/vorsorge.jpg" alt="Eine Hand eines älteren Menschen unterschreibt einen Vertrag">
          <div class="card-body">
             <h2 class="card-title">Vorsorge</h2>
-            <p class="card-text">Sie möchten selbstbestimmt vorsorgen ? Hier erhalten Sie mehr Informationen zum Thema Vorsorge</p>
+            <p class="card-text">Sie möchten selbstbestimmt vorsorgen? Hier erhalten Sie mehr Informationen zum Thema Vorsorge</p>
             <a href="./vorsorge" class="btn btn-primary">Mehr erfahren</a>
          </div>
       </div>
