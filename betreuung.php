@@ -12,7 +12,7 @@ include('./header.php');
 
 <main>
 	<h2 id="Informationen">Ehrenamtliche Betreuung – auch für Sie ein Gewinn!</h2>
-	<img class="image" src="./src/img/testbild-watermark.jpg" alt="Betreuung">
+	<img class="image" src="./src/img/betreuung.jpg" alt="Betreuung">
 	<p class="betreuungcontent">Möchten Sie einen Teil Ihrer Freizeit sinnvoll gestalten und eine ehrenamtliche Aufgabe im sozialen Bereich übernehmen?
 		Sie helfen damit nicht nur anderen, sondern werden selbst neue Erkenntnisse gewinnen, vielfältige Erfahrungen machen und Ihren Horizont erweitern.
 		Ein paar Stunden im Monat reichen oft aus, um einem altersgebrechlichen oder behinderten Menschen in der Regelung seiner Angelegenheiten zur Seite zu stehen.<br /><br />
