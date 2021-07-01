@@ -33,6 +33,25 @@ function mitarbeiterHandler($num, $row, $data){
 ?>
 
 <main>
+    
+<p>Der Betreuungsverein Heidenheim e.V. nimmt Aufgaben nach dem Betreuungsgesetz im Landkreis Heidenheim wahr. <br>
+Unsere Angebote:
+<ul>
+    <li>Gewinnung ehrenamtlicher Betreuer*innen</li>
+    <li>Einführung, Unterstützung und Fortbildung ehrenamtlicher Betreuer*innen</li>
+    <li>Erfahrungsaustausch für ehrenamtliche Betreuer*innen</li>
+    <li>Führung von hauptamtlichen Betreuungen</li>
+    <li>Ratsuchende über Vorsorgemöglichkeiten informieren</li>
+    <li>Beratung bevollmächtigter Personen</li>
+</ul>    
+    
+Die Beratungs- und Informationsangebote sind kostenlos.
+
+Wir sind als gemeinnütziger Verein anerkannt und freuen uns über Spenden zur Unterstützung unserer Tätigkeit<br>
+ <a class="btn btn-primary spenden-button" href="https://www.betterplace.org/de/projects/16164-qualifizierung-ehrenamtlicher-betreuerinnen-und-betreuer">Spenden</a>
+</p>
+    
+    
 <h2 id="Mitarbeiter">Mitarbeiter</h2>
 
 <?php

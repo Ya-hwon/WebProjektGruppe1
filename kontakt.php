@@ -39,9 +39,6 @@ if (!empty($_POST["send"])) {
       Oder nach Vereinbarung<br />
     </p>
 
-    <div style='height:300px;width:100%;'>
-      <iframe width="" height="300" src=https://maps.google.de/maps?hl=de&q=%20%20Felsenstr.+36%20Heidenheim&t=&z=16&ie=utf8&iwloc=b&output=embed frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style='height:300px;width:100%;'></iframe>
-    </div>
 
     <p><br />
       <b>Postanschrift:</b><br />
@@ -50,11 +47,7 @@ if (!empty($_POST["send"])) {
       Felsenstr. 36<br />
       89518 Heidenheim<br />
     </p>
-
-    <div style='height:300px;width:100%;'>
-      <iframe width="" height="300" src=https://maps.google.de/maps?hl=de&q=%20%20Bergstr.+36%20Heidenheim&t=&z=16&ie=utf8&iwloc=b&output=embed frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style='height:300px;width:100%;'></iframe>
-    </div>
-
+      
     <p><br />
       <b>Geschäftsstelle:</b><br />
       Bergstr. 36, 1. OG<br />
@@ -62,7 +55,11 @@ if (!empty($_POST["send"])) {
       89518 Heidenheim<br />
     </p>
 
-    <h2>Kontaktformular</h2><br />
+          <div style='height:300px;width:100%;'>
+      <iframe width="" height="300" src=https://maps.google.de/maps?hl=de&q=%20%20Bergstr.+36%20Heidenheim&t=&z=16&ie=utf8&iwloc=b&output=embed frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style='height:300px;width:100%;'></iframe>
+    </div>
+      
+    <h2 style="margin-top: 150px;">Kontaktformular</h2><br />
 
     <form enctype="multipart/form-data" method="post">
       <div class="mb-3">
